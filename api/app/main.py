@@ -8,7 +8,7 @@ load_dotenv()
 
 app = FastAPI(title='AI Bias API', version='1.0.0')
 
-app.include_router('analysis_router')
+app.include_router(analysis_router)
 
 @app.get('/')
 def root():
