@@ -17,7 +17,7 @@ class GeminiService(AIService):
             config=types.GenerateContentConfig(
                 temperature=0.0,
                 response_mime_type='application/json',
-                system_instruction='You are an HR analyst. Evaluate the curriculum and return a JSON object strictly with two keys: 'score' (an integer from 0 to 10) and 'status' (a string: 'Approved' or 'Rejected').'
+                system_instruction="You are an HR analyst. Evaluate the curriculum and return a JSON object strictly with two keys: 'score' (an integer from 0 to 10) and 'status' (a string: 'Approved' or 'Rejected')."
                 )
 
         )
