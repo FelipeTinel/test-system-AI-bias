@@ -1,6 +1,6 @@
 import os
 from openai import OpenAI
-from ai_service import AIService
+from .ai_service import AIService
 
 class OpenAIService (AIService):
 

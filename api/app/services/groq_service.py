@@ -1,6 +1,6 @@
 import os
 from groq import Groq
-from ai_service import AIService
+from .ai_service import AIService
 
 class GroqService (AIService):
 

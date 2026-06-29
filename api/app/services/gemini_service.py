@@ -1,7 +1,7 @@
 import os
 from google import genai
 from google.genai import types
-from ai_service import AIService
+from .ai_service import AIService
 
 class GeminiService(AIService):
 
