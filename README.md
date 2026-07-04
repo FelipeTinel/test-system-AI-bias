@@ -11,7 +11,7 @@ O rito inicial pra começar a mexer no projeto é: </br>
 python3 -m venv .venv
 pip install -r requirements.txt
 ```
-Apenas uma vez em cada uma das pastas (cada uma tem um venv diferente); </br>
+Apenas uma vez em cada uma das pastas (cada uma tem um venv diferente); </br></br>
 3 ) Uma vez dentro da pasta que você vai mexer naquele momento, rodar:
 ```bash
 source .venv/bin/activate
@@ -71,7 +71,9 @@ E recebe outro JSON assim:
 
 Em cima disso, é possível criar um dataset com os resultado obtidos pelos currículos enviados. </br>
 
-Por enquanto, só existem essas rotas funcionais de fato. Caso alguma coisa não ocorra como previsto nesse README, repito, me informe.
+Por enquanto, só existem essas rotas funcionais de fato. Caso alguma coisa não ocorra como previsto nesse README, repito, me informe. </br>
+
+Obs: Qualquer alteração feita em /api, também me fala pra que eu possa dar deploy.
 
 ## Criação do experimento:
 
