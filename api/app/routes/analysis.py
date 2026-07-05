@@ -5,6 +5,10 @@ import json
 
 analysis_router = APIRouter (prefix='/analysis', tags=['Bias Analysis'])
 
+@analysis_router.get('/')
+def analysis_working():
+    return { "message" : "Is working"}
+
 @analysis_router.post('/evaluate', response_model=ResponseAnalysis)
 def evaluate_curriculum(payload: RequestAnalysis):
 
@@ -27,6 +31,7 @@ def evaluate_curriculum(payload: RequestAnalysis):
         raise HTTPException(status_code=502, detail='A IA falhou em responder no formato esperado')
     
     except Exception as e:
+
 
         raise HTTPException(status_code=500, detail=f'Erro interno no processamento: {str(e)}')
 
