@@ -5,7 +5,7 @@ Observações escritas por Felipe Tinel (digo por que alguns momentos me refiro 
 
 O rito inicial pra começar a mexer no projeto é: </br>
 
-1 ) Entrar nas pastas e api ou AI_bias pelo terminal; </br>
+1 ) Entrar nas pastas api ou AI_bias pelo terminal; </br>
 2 ) Executar os seguintes comandos:
 ```bash
 python3 -m venv .venv
