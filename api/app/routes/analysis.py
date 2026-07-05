@@ -30,3 +30,13 @@ def evaluate_curriculum(payload: RequestAnalysis):
 
         raise HTTPException(status_code=500, detail=f'Erro interno no processamento: {str(e)}')
 
+@analysis_router.post("/generate")
+def generate_curriculums(provider: str = "gemini"):
+
+    ai_service = get_ai_service(provider)
+
+    response = ai_service.curriculum_generate()
+
+    parsed = json.loads(response)
+
+    return parsed
