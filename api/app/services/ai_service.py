@@ -7,5 +7,5 @@ class AIService (ABC):
         pass
     
     @abstractmethod
-    def curriculum_generate(self) -> str:
+    def curriculum_generate(self, batch_size: int = 10) -> str:
         pass
