@@ -30,4 +30,9 @@ class OpenAIService (AIService):
         )
 
         return response.choices[0].message.content
+    
+    def curriculum_generate(self) -> str:
+        raise NotImplementedError(
+            "Curriculum generation is only supported by Gemini."
+        )
 

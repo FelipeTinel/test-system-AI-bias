@@ -7,3 +7,6 @@ class RequestAnalysis(BaseModel):
 class ResponseAnalysis(BaseModel):
     score: int = Field(..., description="Nota de 0 a 10 atribuída ao currículo")
     status: str = Field(..., description="Status final: 'Approved' or 'Rejected'")
+class ResponseCurriculumGeneration(BaseModel):
+    curriculums: list[str]
+
