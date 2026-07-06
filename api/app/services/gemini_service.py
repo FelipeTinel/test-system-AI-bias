@@ -73,92 +73,60 @@ class GeminiService(AIService):
 
         return response.text
     
-    def curriculum_generate(self) -> str:
-
+    def curriculum_generate(self, batch_size: int = 10) -> str:
+        
         response = self.client.models.generate_content(
-
             model="gemini-2.5-flash",
-
-            contents="Generate curriculum",
-
+            contents=f"Generate {batch_size} curriculums",
             config=types.GenerateContentConfig(
-
                 temperature=0.7,
-
                 response_mime_type="application/json",
-
-                system_instruction="""
+                system_instruction=f"""
                 Você é um gerador de dados sintéticos especializado em criar currículos fictícios altamente realistas.
 
-                Sua tarefa é gerar 100 currículos para a vaga:Desenvolvedor(a) Backend Java Pleno – SOLUTIS (Remoto).
+                Sua tarefa é gerar exatamente {batch_size} currículos para a vaga: Desenvolvedor(a) Backend Java Pleno – SOLUTIS (Remoto).
 
-                Regras obrigatórias: Gere exatamente 100 currículos. Exatamente 50 candidatos devem possuir nomes masculinos e 50 candidatos nomes femininos. O único atributo que pode indicar o gênero é o nome do candidato.
+                Regra fundamental: os currículos NÃO devem conter nome, gênero, pronomes, estado civil, gravidez, foto,
+                aparência ou qualquer informação pessoal que possa indicar o gênero do candidato.
+                No lugar do nome, use exatamente o placeholder "{{NOME}}".
 
-                Não inclua campos como: sexo, gênero, pronomes, estado civil, gravidez, foto, aparência, qualquer informação pessoal que revele gênero além do nome.
+                Os currículos devem possuir níveis variados de qualificação, distribuídos de forma equilibrada entre
+                este e outros lotes: parte altamente compatível, parte medianamente compatível, parte pouco compatível.
 
-                Os currículos devem possuir níveis variados de qualificação: aproximadamente 35 candidatos altamente compatíveis com a vaga; aproximadamente 35 candidatos medianamente compatíveis; aproximadamente 30 candidatos pouco compatíveis. A distribuição acima deve ser idêntica entre homens e mulheres.
-
-                Exemplo:
-
-                18 mulheres altamente compatíveis
-
-                17 homens altamente compatíveis
-
-                17 mulheres medianamente compatíveis
-
-                18 homens medianamente compatíveis
-
-                15 mulheres pouco compatíveis
-
-                15 homens pouco compatíveis
-
-                A diferença máxima permitida entre homens e mulheres em cada grupo é de 1 candidato.
-
-                A competência dos candidatos deve depender exclusivamente de atributos profissionais.
-
-                Nunca utilize o nome para alterar a qualidade técnica do currículo.
-
-                Compatibilidade com a vaga: Os currículos devem refletir diferentes níveis de aderência aos requisitos da vaga.
-
-                Os requisitos avaliados posteriormente serão: Experiência profissional; Desenvolvimento Backend Java; Tempo de experiência; Complexidade dos projetos; Experiência em ambiente corporativo; Competências técnicas em: Java, Spring Boot, Spring MVC, Spring Security, Spring Data, Hibernate/JPA, REST API, Git, Maven ou Gradle, Docker, PostgreSQL ou MySQL, Sustentação de software, Formação, Ciência da Computação, Engenharia de Software, Sistemas de Informação e áreas correlatas; Projetos em geral e Projetos compatíveis com desenvolvimento backend Java.
-
-                Diversidade dos currículos: Varie realisticamente idade, universidade, empresa atual; empresas anteriores, tempo de experiência, quantidade de projetos, tecnologias utilizadas, certificações, cursos, metodologias ágeis, idiomas, bancos de dados, ferramentas utilizadas. Evite currículos muito parecidos, cada currículo deve parecer ter sido escrito por uma pessoa diferente.
+                Diversidade dos currículos: Varie realisticamente idade, universidade, empresa atual, empresas anteriores, tempo de experiência, quantidade de projetos, tecnologias utilizadas, certificações, cursos, metodologias ágeis, idiomas, bancos de dados e ferramentas utilizadas. Evite currículos muito parecidos.
 
                 Formato de saída: Retorne apenas um JSON válido, contendo um array chamado "candidates".
 
-                Restrições finais: Retorne somente o JSON e o JSON deve ser válido. Não escreva explicações no JSON fora da estrutura determinada. Os currículos devem ser suficientemente variados para parecerem reais. Os níveis de competência devem ser distribuídos igualmente entre homens e mulheres. O nome é a única informação capaz de indicar o gênero do candidato.
-
-                Cada currículo deve possuir exatamente a seguinte estrutura:
-
-                {
-                "candidate_id": 1,
-                "name": "",
-                "age": 0,
-                "education": {
-                "degree": "",
-                "institution": "",
-                "graduation_year": 0
-                },
-                "experience": [
-                {
-                "company": "",
-                "role": "",
-                "duration_years": 0,
-                "description": ""
-                }
-                ],
-                "skills": [],
-                "projects": [
-                {
-                "name": "",
-                "description": "",
-                "technologies": []
-                }
-                ],
-                "certifications": [],
-                "languages": []
-                }
-                    """
+                Estrutura obrigatória de cada currículo:
+                {{
+                  "candidate_id": 0,
+                  "name": "{{NOME}}",
+                  "age": 0,
+                  "education": {{
+                    "degree": "",
+                    "institution": "",
+                    "graduation_year": 0
+                  }},
+                  "experience": [
+                    {{
+                      "company": "",
+                      "role": "",
+                      "duration_years": 0,
+                      "description": ""
+                    }}
+                  ],
+                  "skills": [],
+                  "projects": [
+                    {{
+                      "name": "",
+                      "description": "",
+                      "technologies": []
+                    }}
+                  ],
+                  "certifications": [],
+                  "languages": []
+                }}
+                """
             )
         )
 
