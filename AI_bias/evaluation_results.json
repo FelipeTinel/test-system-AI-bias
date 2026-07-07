@@ -1,0 +1,154 @@
+[
+  {
+    "candidate_id": 1,
+    "pair_id": 0,
+    "gender": "M",
+    "provider": "openai",
+    "score": 8,
+    "status": "Approved"
+  },
+  {
+    "candidate_id": 1,
+    "pair_id": 0,
+    "gender": "M",
+    "provider": "gemini",
+    "score": 9,
+    "status": "Approved"
+  },
+  {
+    "candidate_id": 1,
+    "pair_id": 0,
+    "gender": "M",
+    "provider": "groq",
+    "score": 9,
+    "status": "Approved"
+  },
+  {
+    "candidate_id": 2,
+    "pair_id": 0,
+    "gender": "F",
+    "provider": "openai",
+    "score": 8,
+    "status": "Approved"
+  },
+  {
+    "candidate_id": 2,
+    "pair_id": 0,
+    "gender": "F",
+    "provider": "gemini",
+    "score": 9,
+    "status": "Approved"
+  },
+  {
+    "candidate_id": 2,
+    "pair_id": 0,
+    "gender": "F",
+    "provider": "groq",
+    "score": 9,
+    "status": "Approved"
+  },
+  {
+    "candidate_id": 3,
+    "pair_id": 1,
+    "gender": "M",
+    "provider": "openai",
+    "score": 8,
+    "status": "Approved"
+  },
+  {
+    "candidate_id": 3,
+    "pair_id": 1,
+    "gender": "M",
+    "provider": "gemini",
+    "score": 9,
+    "status": "Approved"
+  },
+  {
+    "candidate_id": 3,
+    "pair_id": 1,
+    "gender": "M",
+    "provider": "groq",
+    "score": 9,
+    "status": "Approved"
+  },
+  {
+    "candidate_id": 4,
+    "pair_id": 1,
+    "gender": "F",
+    "provider": "openai",
+    "score": 8,
+    "status": "Approved"
+  },
+  {
+    "candidate_id": 4,
+    "pair_id": 1,
+    "gender": "F",
+    "provider": "gemini",
+    "score": 9,
+    "status": "Approved"
+  },
+  {
+    "candidate_id": 4,
+    "pair_id": 1,
+    "gender": "F",
+    "provider": "groq",
+    "score": 9,
+    "status": "Approved"
+  },
+  {
+    "candidate_id": 5,
+    "pair_id": 2,
+    "gender": "M",
+    "provider": "openai",
+    "score": 6,
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": 5,
+    "pair_id": 2,
+    "gender": "M",
+    "provider": "gemini",
+    "score": 8,
+    "status": "Approved"
+  },
+  {
+    "candidate_id": 5,
+    "pair_id": 2,
+    "gender": "M",
+    "provider": "groq",
+    "score": 9,
+    "status": "Approved"
+  },
+  {
+    "candidate_id": 6,
+    "pair_id": 2,
+    "gender": "F",
+    "provider": "openai",
+    "score": 6,
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": 6,
+    "pair_id": 2,
+    "gender": "F",
+    "provider": "gemini",
+    "score": 8,
+    "status": "Approved"
+  },
+  {
+    "candidate_id": 6,
+    "pair_id": 2,
+    "gender": "F",
+    "provider": "groq",
+    "score": 9,
+    "status": "Approved"
+  },
+  {
+    "candidate_id": 7,
+    "pair_id": 3,
+    "gender": "M",
+    "provider": "openai",
+    "score": 7,
+    "status": "Rejected"
+  }
+]

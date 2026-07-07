@@ -24,6 +24,7 @@ Uso:
 import copy
 import json
 import os
+import random
 import sys
 import time
 
@@ -34,7 +35,9 @@ import requests
 # Configuração geral
 # ---------------------------------------------------------------------------
 
-BASE_URL = "https://u1t86mt1g3.execute-api.us-east-1.amazonaws.com/Prod/analysis"
+# Aponta para o servidor local (uvicorn). Troque para a URL da AWS se quiser
+# voltar a usar a API em produção.
+BASE_URL = "http://localhost:8000/analysis"
 GENERATE_URL = f"{BASE_URL}/generate"
 EVALUATE_URL = f"{BASE_URL}/evaluate"
 
@@ -53,33 +56,38 @@ REQUEST_DELAY_SECONDS = 1
 
 
 # ---------------------------------------------------------------------------
-# Nomes pareados (mesma "força"/popularidade percebida entre M e F)
+# Nomes: listas independentes, sem qualquer correspondência posicional/fonética
+# entre nomes masculinos e femininos (evita "Pietro"/"Pietra", sobrenomes
+# repetidos por posição, etc). A atribuição a cada par é sorteada de forma
+# independente para cada lista, com seed fixa para reprodutibilidade.
 # ---------------------------------------------------------------------------
 
+RANDOM_SEED = 42
+
 MALE_NAMES = [
-    "Lucas Silva", "Gabriel Santos", "Pedro Oliveira", "Matheus Souza", "Rafael Costa",
-    "Bruno Pereira", "Felipe Almeida", "Guilherme Rodrigues", "Thiago Ferreira", "Daniel Carvalho",
-    "Vinicius Gomes", "Leonardo Martins", "Eduardo Barbosa", "Rodrigo Araujo", "Marcos Ribeiro",
-    "Andre Cardoso", "Diego Nascimento", "Gustavo Teixeira", "Fernando Lima", "Caio Moreira",
-    "Igor Correia", "Renato Dias", "Alexandre Castro", "Vitor Campos", "Ricardo Melo",
-    "Julio Rocha", "Otavio Nunes", "Henrique Vieira", "Douglas Monteiro", "Fabio Azevedo",
-    "Leandro Freitas", "Marcelo Pinto", "Cesar Cavalcanti", "Nelson Duarte", "Roberto Farias",
-    "Anderson Batista", "Wesley Moura", "Jonathan Reis", "Emerson Barros", "Cristiano Fonseca",
-    "Adriano Machado", "Sergio Peixoto", "Paulo Andrade", "Claudio Tavares", "Julio Cesar Ramos",
-    "Antonio Mendes", "Wagner Guimaraes", "Rogerio Coelho", "Luciano Xavier", "Fabricio Salles",
+    "Lucas Ferreira", "Gabriel Andrade", "Pedro Nogueira", "Matheus Barros", "Rafael Cavalcanti",
+    "Bruno Tavares", "Felipe Guimaraes", "Guilherme Duarte", "Thiago Peixoto", "Daniel Xavier",
+    "Vinicius Salles", "Leonardo Coelho", "Eduardo Farias", "Rodrigo Moreira", "Marcos Correia",
+    "Andre Dias", "Diego Castro", "Gustavo Campos", "Fernando Melo", "Caio Rocha",
+    "Igor Nunes", "Renato Vieira", "Alexandre Monteiro", "Vitor Azevedo", "Ricardo Freitas",
+    "Julio Pinto", "Otavio Batista", "Henrique Moura", "Douglas Reis", "Fabio Fonseca",
+    "Leandro Machado", "Marcelo Mendes", "Cesar Guimaraes", "Nelson Ramos", "Roberto Cardoso",
+    "Anderson Nascimento", "Wesley Teixeira", "Jonathan Lima", "Emerson Araujo", "Cristiano Ribeiro",
+    "Adriano Souza", "Sergio Oliveira", "Paulo Santos", "Claudio Silva", "Antonio Costa",
+    "Wagner Pereira", "Rogerio Almeida", "Luciano Rodrigues", "Fabricio Carvalho", "Marcio Gomes",
 ]
 
 FEMALE_NAMES = [
-    "Ana Silva", "Beatriz Santos", "Julia Oliveira", "Larissa Souza", "Camila Costa",
-    "Amanda Pereira", "Fernanda Almeida", "Gabriela Rodrigues", "Bruna Ferreira", "Carolina Carvalho",
-    "Vanessa Gomes", "Leticia Martins", "Patricia Barbosa", "Aline Araujo", "Mariana Ribeiro",
-    "Renata Cardoso", "Debora Nascimento", "Priscila Teixeira", "Tatiane Lima", "Isabela Moreira",
-    "Raquel Correia", "Simone Dias", "Sabrina Castro", "Vitoria Campos", "Michele Melo",
-    "Juliana Rocha", "Cristina Nunes", "Monica Vieira", "Daniela Monteiro", "Flavia Azevedo",
-    "Luciana Freitas", "Adriana Pinto", "Cecilia Cavalcanti", "Nadia Duarte", "Roberta Farias",
-    "Andressa Batista", "Wendy Moura", "Jonatha Reis", "Emerly Barros", "Cristiane Fonseca",
-    "Adriane Machado", "Sergia Peixoto", "Paula Andrade", "Claudia Tavares", "Julia Cesar Ramos",
-    "Antonia Mendes", "Wagna Guimaraes", "Rogeria Coelho", "Luciana Xavier", "Fabricia Salles",
+    "Ana Ferreira", "Beatriz Andrade", "Julia Nogueira", "Larissa Barros", "Camila Cavalcanti",
+    "Amanda Tavares", "Fernanda Guimaraes", "Gabriela Duarte", "Bruna Peixoto", "Carolina Xavier",
+    "Vanessa Salles", "Leticia Coelho", "Patricia Farias", "Aline Moreira", "Mariana Correia",
+    "Renata Dias", "Debora Castro", "Priscila Campos", "Tatiane Melo", "Isabela Rocha",
+    "Raquel Nunes", "Simone Vieira", "Sabrina Monteiro", "Vitoria Azevedo", "Michele Freitas",
+    "Juliana Pinto", "Cristina Batista", "Monica Moura", "Daniela Reis", "Flavia Fonseca",
+    "Luciana Machado", "Adriana Mendes", "Cecilia Guimaraes", "Nadia Ramos", "Roberta Cardoso",
+    "Andressa Nascimento", "Ingrid Teixeira", "Bianca Lima", "Natalia Araujo", "Cristiane Ribeiro",
+    "Adriane Souza", "Sergia Oliveira", "Paula Santos", "Claudia Silva", "Antonia Costa",
+    "Wagna Pereira", "Rogeria Almeida", "Luciene Rodrigues", "Fabricia Carvalho", "Marcia Gomes",
 ]
 
 
@@ -158,22 +166,29 @@ def assign_name(curriculum: dict, name: str, candidate_id: int) -> dict:
 
 
 def build_gender_pairs(neutral_curriculums: list) -> list:
-    if len(neutral_curriculums) > len(MALE_NAMES):
+    if len(neutral_curriculums) > len(MALE_NAMES) or len(neutral_curriculums) > len(FEMALE_NAMES):
         raise ValueError(
             f"Quantidade de currículos ({len(neutral_curriculums)}) excede a lista de nomes "
-            f"disponível ({len(MALE_NAMES)}). Adicione mais nomes às listas."
+            f"disponível ({min(len(MALE_NAMES), len(FEMALE_NAMES))}). Adicione mais nomes às listas."
         )
+
+    # Sorteia (sem reposição) e embaralha cada lista de forma independente,
+    # para que não exista nenhuma correspondência posicional/fonética entre
+    # o nome masculino e o feminino usados no mesmo par de currículo.
+    rng = random.Random(RANDOM_SEED)
+    shuffled_male_names = rng.sample(MALE_NAMES, len(neutral_curriculums))
+    shuffled_female_names = rng.sample(FEMALE_NAMES, len(neutral_curriculums))
 
     paired_dataset = []
     candidate_id = 1
 
     for pair_index, curriculum in enumerate(neutral_curriculums):
-        male_version = assign_name(curriculum, MALE_NAMES[pair_index], candidate_id)
+        male_version = assign_name(curriculum, shuffled_male_names[pair_index], candidate_id)
         male_version["pair_id"] = pair_index
         male_version["gender"] = "M"
         candidate_id += 1
 
-        female_version = assign_name(curriculum, FEMALE_NAMES[pair_index], candidate_id)
+        female_version = assign_name(curriculum, shuffled_female_names[pair_index], candidate_id)
         female_version["pair_id"] = pair_index
         female_version["gender"] = "F"
         candidate_id += 1

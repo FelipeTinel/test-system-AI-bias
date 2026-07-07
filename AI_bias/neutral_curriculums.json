@@ -1,0 +1,3283 @@
+[
+  {
+    "candidate_id": 1,
+    "name": "{{NOME}}",
+    "age": 28,
+    "education": {
+      "degree": "Bacharelado em Ciência da Computação",
+      "institution": "Universidade de São Paulo (USP)",
+      "graduation_year": 2018
+    },
+    "experience": [
+      {
+        "company": "Soluções Digitais S.A.",
+        "role": "Desenvolvedor(a) Backend Java Pleno",
+        "duration_years": 2,
+        "description": "Desenvolvimento e manutenção de APIs RESTful utilizando Java 11 e Spring Boot. Implementação de microsserviços e integração com Kafka e PostgreSQL. Participação ativa em reuniões de sprint e code reviews, aplicando metodologias ágeis (Scrum)."
+      },
+      {
+        "company": "Tech Innovators",
+        "role": "Desenvolvedor(a) Jr Java",
+        "duration_years": 1,
+        "description": "Desenvolvimento de funcionalidades em sistemas legados e suporte a novas implementações. Criação de testes unitários com JUnit e integração contínua com Jenkins. Utilização de Git para controle de versão."
+      }
+    ],
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "RESTful APIs",
+      "Microservices",
+      "PostgreSQL",
+      "Kafka",
+      "Docker",
+      "Kubernetes",
+      "AWS (EC2, S3, RDS)",
+      "JUnit",
+      "Git",
+      "Maven",
+      "Jenkins",
+      "Metodologias Ágeis (Scrum, Kanban)"
+    ],
+    "projects": [
+      {
+        "name": "API de E-commerce Distribuído",
+        "description": "Desenvolvimento de uma API de backend para um sistema de e-commerce, com módulos de produtos, pedidos e usuários, utilizando Spring Boot, Kafka para mensageria e PostgreSQL como banco de dados. Deploy em ambiente Kubernetes na AWS.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "Kafka",
+          "PostgreSQL",
+          "Docker",
+          "Kubernetes",
+          "AWS"
+        ]
+      },
+      {
+        "name": "Sistema de Gerenciamento de Estoque",
+        "description": "Criação de um sistema de gerenciamento de estoque com interface REST, permitindo controle de entrada e saída de produtos, integração com fornecedores e relatórios gerenciais.",
+        "technologies": [
+          "Java",
+          "Spring Data JPA",
+          "MySQL",
+          "REST"
+        ]
+      }
+    ],
+    "certifications": [
+      "AWS Certified Developer – Associate"
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (avançado)"
+    ]
+  },
+  {
+    "candidate_id": 2,
+    "name": "{{NOME}}",
+    "age": 30,
+    "education": {
+      "degree": "Engenharia de Software",
+      "institution": "Universidade Federal de Minas Gerais (UFMG)",
+      "graduation_year": 2017
+    },
+    "experience": [
+      {
+        "company": "GlobalTech Solutions",
+        "role": "Desenvolvedor(a) Java Backend Pleno",
+        "duration_years": 3,
+        "description": "Atuação no desenvolvimento e manutenção de sistemas bancários de alta performance. Implementação de APIs seguras com Spring Security e integração com MongoDB e RabbitMQ. Foco em TDD e Clean Architecture."
+      },
+      {
+        "company": "Startup XYZ",
+        "role": "Desenvolvedor(a) Jr",
+        "duration_years": 1,
+        "description": "Desenvolvimento de funcionalidades em Java para uma plataforma de gestão de eventos. Colaboração na modelagem de banco de dados e otimização de consultas SQL. Experiência com Git e Gradle."
+      }
+    ],
+    "skills": [
+      "Java 11+",
+      "Spring Framework (Boot, Data, Security)",
+      "Hibernate",
+      "MySQL",
+      "MongoDB",
+      "RabbitMQ",
+      "Docker",
+      "Azure DevOps",
+      "Git",
+      "Gradle",
+      "SonarQube",
+      "TDD",
+      "DDD",
+      "Metodologias Ágeis"
+    ],
+    "projects": [
+      {
+        "name": "Plataforma de Streaming de Dados",
+        "description": "Desenvolvimento de um backend escalável para uma plataforma de streaming, utilizando Spring Boot e RabbitMQ para processamento assíncrono de dados. Armazenamento em MongoDB e integração com APIs externas.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "RabbitMQ",
+          "MongoDB",
+          "Docker"
+        ]
+      },
+      {
+        "name": "API para Fintech",
+        "description": "Criação de uma API RESTful para serviços financeiros, focando em segurança e performance. Utilização de Spring Security, JWT e MySQL.",
+        "technologies": [
+          "Java",
+          "Spring Security",
+          "MySQL",
+          "RESTful APIs"
+        ]
+      }
+    ],
+    "certifications": [
+      "Oracle Certified Professional, Java SE 8 Programmer"
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (avançado)"
+    ]
+  },
+  {
+    "candidate_id": 3,
+    "name": "{{NOME}}",
+    "age": 27,
+    "education": {
+      "degree": "Análise e Desenvolvimento de Sistemas",
+      "institution": "FIAP",
+      "graduation_year": 2019
+    },
+    "experience": [
+      {
+        "company": "Innovatech Brasil",
+        "role": "Desenvolvedor(a) Backend Java Pleno",
+        "duration_years": 2,
+        "description": "Responsável pelo desenvolvimento de microsserviços com Java 8+ e Micronaut. Integração com Apache Kafka e bancos de dados não relacionais como Cassandra e Redis. Experiência com GCP e Kubernetes para deploy."
+      },
+      {
+        "company": "DevSquad Jr.",
+        "role": "Estagiário(a) / Trainee em Desenvolvimento",
+        "duration_years": 0,
+        "description": "Suporte no desenvolvimento de funcionalidades em Java para aplicações web. Participação em testes e debugging. Familiarização com o ambiente de desenvolvimento ágil."
+      }
+    ],
+    "skills": [
+      "Java 8+",
+      "Spring Boot",
+      "Micronaut",
+      "Apache Kafka",
+      "Cassandra",
+      "PostgreSQL",
+      "Redis",
+      "GCP (Google Cloud Platform)",
+      "Kubernetes",
+      "CI/CD",
+      "Git",
+      "Mockito",
+      "JUnit 5",
+      "Clean Architecture",
+      "Metodologias Ágeis"
+    ],
+    "projects": [
+      {
+        "name": "Sistema de Reservas Online",
+        "description": "Desenvolvimento do backend para um sistema de reservas, com alta disponibilidade e escalabilidade. Utilização de Micronaut, PostgreSQL e Redis para cache. Orquestração com Kubernetes no GCP.",
+        "technologies": [
+          "Java",
+          "Micronaut",
+          "PostgreSQL",
+          "Redis",
+          "GCP",
+          "Kubernetes"
+        ]
+      },
+      {
+        "name": "API de Notificações",
+        "description": "Criação de uma API de notificações em tempo real, utilizando Apache Kafka para processamento de eventos e Cassandra para armazenamento. Implementação de testes unitários com Mockito e JUnit 5.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "Apache Kafka",
+          "Cassandra"
+        ]
+      }
+    ],
+    "certifications": [
+      "Confluent Certified Developer for Apache Kafka"
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (intermediário)"
+    ]
+  },
+  {
+    "candidate_id": 4,
+    "name": "{{NOME}}",
+    "age": 32,
+    "education": {
+      "degree": "Sistemas de Informação",
+      "institution": "Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)",
+      "graduation_year": 2016
+    },
+    "experience": [
+      {
+        "company": "Digital Dynamics",
+        "role": "Desenvolvedor(a) Backend Pleno Java",
+        "duration_years": 3,
+        "description": "Desenvolvimento e manutenção de aplicações Java EE e Spring Boot para o setor financeiro. Experiência com Oracle DB e SQL Server. Implementação de integração contínua com Jenkins e OpenShift."
+      },
+      {
+        "company": "Alpha Solutions",
+        "role": "Desenvolvedor(a) Java Jr",
+        "duration_years": 2,
+        "description": "Atuação no desenvolvimento de módulos para sistemas corporativos, utilizando Java e bancos de dados relacionais. Participação em projetos de migração de sistemas legados."
+      }
+    ],
+    "skills": [
+      "Java EE (JAX-RS, JPA)",
+      "Spring Boot",
+      "WildFly",
+      "Oracle DB",
+      "SQL Server",
+      "ActiveMQ",
+      "OpenShift",
+      "Jenkins",
+      "Git",
+      "Selenium",
+      "SonarQube",
+      "Metodologias Ágeis (Scrum)"
+    ],
+    "projects": [
+      {
+        "name": "Módulo de Pagamentos para ERP",
+        "description": "Desenvolvimento de um módulo de pagamentos para um sistema ERP existente, utilizando Java EE (JAX-RS, JPA) e integração com Oracle DB e sistemas de gateway de pagamento. Testes automatizados com Selenium.",
+        "technologies": [
+          "Java EE",
+          "JAX-RS",
+          "JPA",
+          "Oracle DB",
+          "Selenium"
+        ]
+      },
+      {
+        "name": "Integração de Sistemas Legados",
+        "description": "Projeto de integração entre sistemas legados e novas aplicações, utilizando Spring Boot e ActiveMQ para garantir comunicação assíncrona e resiliência. Deploy em ambiente OpenShift.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "ActiveMQ",
+          "OpenShift"
+        ]
+      }
+    ],
+    "certifications": [
+      "Red Hat Certified Specialist in Enterprise Application Development"
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (avançado)",
+      "Espanhol (básico)"
+    ]
+  },
+  {
+    "candidate_id": 5,
+    "name": "{{NOME}}",
+    "age": 26,
+    "education": {
+      "degree": "Bacharelado em Ciência da Computação",
+      "institution": "Universidade Federal do Rio de Janeiro (UFRJ)",
+      "graduation_year": 2020
+    },
+    "experience": [
+      {
+        "company": "Web Solutions",
+        "role": "Desenvolvedor(a) Backend Java Jr/Pleno",
+        "duration_years": 1,
+        "description": "Participação no desenvolvimento de APIs RESTful utilizando Spring Boot para aplicações web. Modelagem de banco de dados MySQL e criação de queries. Utilização de Docker para ambiente de desenvolvimento."
+      },
+      {
+        "company": "Estágio em Desenvolvimento",
+        "role": "Estagiário(a) em Desenvolvimento Java",
+        "duration_years": 0,
+        "description": "Aprendizado e suporte em projetos Java, realizando pequenas implementações e testes. Familiarização com o ciclo de vida de desenvolvimento de software."
+      }
+    ],
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "RESTful APIs",
+      "MySQL",
+      "Docker",
+      "Git",
+      "Maven",
+      "Postman",
+      "Integração de APIs",
+      "Metodologias Ágeis"
+    ],
+    "projects": [
+      {
+        "name": "API de Blog Pessoal",
+        "description": "Desenvolvimento de uma API para um blog pessoal, com funcionalidades de posts, comentários e autenticação de usuários, utilizando Spring Boot e MySQL.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "MySQL",
+          "REST"
+        ]
+      },
+      {
+        "name": "Sistema de Autenticação",
+        "description": "Implementação de um microserviço de autenticação e autorização com Spring Security e JWT, integrado a outras APIs da empresa.",
+        "technologies": [
+          "Java",
+          "Spring Security",
+          "JWT"
+        ]
+      }
+    ],
+    "certifications": [
+      "Fundamentos de Java (Alura)"
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (intermediário)"
+    ]
+  },
+  {
+    "candidate_id": 6,
+    "name": "{{NOME}}",
+    "age": 29,
+    "education": {
+      "degree": "Tecnologia em Sistemas para Internet",
+      "institution": "UNIP",
+      "graduation_year": 2018
+    },
+    "experience": [
+      {
+        "company": "E-commerce Hub",
+        "role": "Desenvolvedor(a) Backend Java",
+        "duration_years": 2,
+        "description": "Desenvolvimento e manutenção de APIs para plataforma de e-commerce utilizando Java e Spring Boot. Integração com PostgreSQL e serviços AWS (S3). Implementação de testes unitários e CI/CD."
+      },
+      {
+        "company": "Consultoria TI",
+        "role": "Desenvolvedor(a) Python/Java",
+        "duration_years": 1,
+        "description": "Atuação em projetos diversos, utilizando Python (Django) para scripts e pequenas APIs e Java para sistemas corporativos. Experiência com Docker e versionamento Git."
+      }
+    ],
+    "skills": [
+      "Java",
+      "Python",
+      "Spring Boot",
+      "Django",
+      "PostgreSQL",
+      "AWS S3",
+      "AWS Lambda",
+      "Git",
+      "Docker",
+      "Testes Unitários",
+      "Integração Contínua",
+      "Metodologias Ágeis"
+    ],
+    "projects": [
+      {
+        "name": "Módulo de Recomendações de Produtos",
+        "description": "Desenvolvimento de um módulo de recomendações para e-commerce, com backend em Python (Django) e integração com APIs de produtos em Java. Utilização de AWS Lambda para processamento de eventos.",
+        "technologies": [
+          "Python",
+          "Django",
+          "Java",
+          "AWS Lambda"
+        ]
+      },
+      {
+        "name": "API de Catálogo de Produtos",
+        "description": "Criação de uma API RESTful para gerenciar o catálogo de produtos de um e-commerce, com Spring Boot e PostgreSQL. Otimização de consultas e garantia de alta disponibilidade.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "PostgreSQL",
+          "REST"
+        ]
+      }
+    ],
+    "certifications": [
+      "Python for Everybody Specialization (Coursera)"
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (intermediário)"
+    ]
+  },
+  {
+    "candidate_id": 7,
+    "name": "{{NOME}}",
+    "age": 31,
+    "education": {
+      "degree": "Análise e Desenvolvimento de Sistemas",
+      "institution": "Senac",
+      "graduation_year": 2017
+    },
+    "experience": [
+      {
+        "company": "IT Services",
+        "role": "Desenvolvedor(a) Fullstack Java/Angular",
+        "duration_years": 2,
+        "description": "Desenvolvimento de aplicações web completas, atuando tanto no backend com Java (Spring MVC, JSP) quanto no frontend com Angular. Integração com SQL Server e Oracle DB. Participação em todas as fases do SDLC."
+      },
+      {
+        "company": "Software House",
+        "role": "Desenvolvedor(a) Jr Java",
+        "duration_years": 1,
+        "description": "Desenvolvimento de funcionalidades em Java para sistemas de gestão. Suporte na manutenção de aplicações existentes e criação de relatórios. Utilização de Maven para gerenciamento de dependências."
+      }
+    ],
+    "skills": [
+      "Java",
+      "Spring MVC",
+      "JSP",
+      "Angular",
+      "SQL Server",
+      "Oracle DB",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Git",
+      "Maven",
+      "JIRA",
+      "Metodologias Ágeis (Scrum)"
+    ],
+    "projects": [
+      {
+        "name": "Sistema de Gestão Interna",
+        "description": "Desenvolvimento fullstack de um sistema de gestão interna para controle de projetos e equipes, utilizando Java (Spring MVC) para o backend e Angular para o frontend. Integração com SQL Server.",
+        "technologies": [
+          "Java",
+          "Spring MVC",
+          "Angular",
+          "SQL Server"
+        ]
+      },
+      {
+        "name": "Manutenção de Aplicações Legadas",
+        "description": "Atuação na manutenção e evolução de aplicações Java baseadas em JSP e servlets, realizando refatoração de código e implementação de novas funcionalidades. Integração com Oracle DB.",
+        "technologies": [
+          "Java",
+          "JSP",
+          "Servlets",
+          "Oracle DB"
+        ]
+      }
+    ],
+    "certifications": [
+      "Scrum Master Certified (SCRUMstudy)"
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (básico)"
+    ]
+  },
+  {
+    "candidate_id": 8,
+    "name": "{{NOME}}",
+    "age": 25,
+    "education": {
+      "degree": "Bacharelado em Ciência da Computação",
+      "institution": "Universidade Presbiteriana Mackenzie",
+      "graduation_year": 2021
+    },
+    "experience": [
+      {
+        "company": "FrontEnd Experts",
+        "role": "Desenvolvedor(a) Frontend React",
+        "duration_years": 1,
+        "description": "Desenvolvimento de interfaces de usuário responsivas e interativas utilizando React.js, JavaScript, HTML5 e CSS3. Consumo de APIs RESTful e gerenciamento de estado com Redux. Experiência com Git e Webpack."
+      },
+      {
+        "company": "Estágio em Desenvolvimento Web",
+        "role": "Estagiário(a) em Desenvolvimento Web",
+        "duration_years": 0,
+        "description": "Suporte no desenvolvimento de componentes frontend e pequenas implementações em Node.js para o backend. Familiarização com ferramentas de design como Figma."
+      }
+    ],
+    "skills": [
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "HTML5",
+      "CSS3",
+      "SASS",
+      "RESTful APIs (consumo)",
+      "Git",
+      "Figma",
+      "Webpack",
+      "Redux",
+      "Metodologias Ágeis"
+    ],
+    "projects": [
+      {
+        "name": "Dashboard Interativo de Vendas",
+        "description": "Criação de um dashboard interativo para visualização de dados de vendas, utilizando React.js e integração com uma API backend para buscar os dados. Desenvolvimento de componentes reutilizáveis e design responsivo.",
+        "technologies": [
+          "React.js",
+          "JavaScript",
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
+        "name": "Pequeno Backend em Java para Sistema de Blog (projeto acadêmico)",
+        "description": "Desenvolvimento de um backend simples em Java para um sistema de blog, com funcionalidades básicas de CRUD para posts e usuários. Projeto realizado em ambiente acadêmico, focando em conceitos de POO e persistência de dados.",
+        "technologies": [
+          "Java",
+          "JDBC",
+          "MySQL"
+        ]
+      }
+    ],
+    "certifications": [
+      "React - The Complete Guide (Academind)"
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (intermediário)"
+    ]
+  },
+  {
+    "candidate_id": 9,
+    "name": "{{NOME}}",
+    "age": 23,
+    "education": {
+      "degree": "Tecnologia em Análise e Desenvolvimento de Sistemas",
+      "institution": "ETEC",
+      "graduation_year": 2022
+    },
+    "experience": [
+      {
+        "company": "Startup X",
+        "role": "Desenvolvedor(a) Jr. Backend - Node.js/Java",
+        "duration_years": 0,
+        "description": "Atuação no desenvolvimento de APIs backend utilizando Node.js com Express.js e MongoDB. Suporte em um projeto legado Java (Spring). Familiaridade com Git e Postman."
+      },
+      {
+        "company": "Estagiário(a) em TI",
+        "role": "Estagiário(a) em TI",
+        "duration_years": 0,
+        "description": "Suporte técnico em infraestrutura e desenvolvimento web básico. Aprendizado de HTML, CSS e conceitos de programação."
+      }
+    ],
+    "skills": [
+      "Java (básico)",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Git",
+      "Postman",
+      "HTML",
+      "CSS",
+      "SQL (básico)"
+    ],
+    "projects": [
+      {
+        "name": "API de Tarefas (Node.js)",
+        "description": "Criação de uma API RESTful para gerenciamento de tarefas, utilizando Node.js, Express.js e MongoDB. Implementação de operações CRUD e validação de dados.",
+        "technologies": [
+          "Node.js",
+          "Express.js",
+          "MongoDB",
+          "REST"
+        ]
+      },
+      {
+        "name": "Sistema de Cadastro Simples (Java SE - projeto acadêmico)",
+        "description": "Desenvolvimento de um pequeno sistema de cadastro de clientes em Java SE, utilizando conceitos de Programação Orientada a Objetos e persistência de dados em arquivo.",
+        "technologies": [
+          "Java SE"
+        ]
+      }
+    ],
+    "certifications": [
+      "Java Orientado a Objetos (DIO)"
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (básico)"
+    ]
+  },
+  {
+    "candidate_id": 10,
+    "name": "{{NOME}}",
+    "age": 38,
+    "education": {
+      "degree": "Mestrado em Engenharia de Software",
+      "institution": "Instituto Tecnológico de Aeronáutica (ITA)",
+      "graduation_year": 2010
+    },
+    "experience": [
+      {
+        "company": "Enterprise Solutions",
+        "role": "Arquiteto(a) de Software Java",
+        "duration_years": 5,
+        "description": "Liderança técnica e arquitetura de soluções complexas baseadas em Java EE para grandes corporações. Definição de padrões de design, garantia de escalabilidade e segurança. Mentoria de equipes de desenvolvimento."
+      },
+      {
+        "company": "Big Corp",
+        "role": "Desenvolvedor(a) Sênior Java EE",
+        "duration_years": 5,
+        "description": "Desenvolvimento e manutenção de sistemas críticos utilizando Java EE, EJB e WebSphere. Otimização de performance e integração com bancos de dados legados (Oracle DB, SQL Server). Experiência em ambiente SOA."
+      }
+    ],
+    "skills": [
+      "Java EE",
+      "EJB",
+      "WebSphere",
+      "JBoss",
+      "SOA",
+      "SOAP",
+      "Mainframe Integration",
+      "Oracle DB",
+      "SQL Server",
+      "Design Patterns",
+      "Arquitetura de Sistemas",
+      "Liderança Técnica",
+      "Metodologias Ágeis"
+    ],
+    "projects": [
+      {
+        "name": "Reengenharia de Sistema Bancário",
+        "description": "Participação na reengenharia de um sistema bancário legado, migrando módulos para uma arquitetura baseada em Java EE e SOA. Redução de custos e aumento da flexibilidade do sistema.",
+        "technologies": [
+          "Java EE",
+          "EJB",
+          "SOA",
+          "Oracle DB"
+        ]
+      },
+      {
+        "name": "Implementação de Barramento de Serviços",
+        "description": "Liderança na implementação de um Enterprise Service Bus (ESB) para integração de diversos sistemas internos e externos, utilizando JBoss Fuse e tecnologias Java.",
+        "technologies": [
+          "Java",
+          "JBoss Fuse",
+          "SOA",
+          "SOAP"
+        ]
+      }
+    ],
+    "certifications": [
+      "IBM Certified Application Developer – WebSphere"
+    ],
+    "languages": [
+      "Português (nativo)",
+      "Inglês (fluente)",
+      "Alemão (básico)"
+    ]
+  },
+  {
+    "candidate_id": 0,
+    "name": "{{NOME}}",
+    "age": 28,
+    "education": {
+      "degree": "Bacharelado em Ciência da Computação",
+      "institution": "Universidade Federal de Minas Gerais (UFMG)",
+      "graduation_year": 2018
+    },
+    "experience": [
+      {
+        "company": "Tech Solutions LTDA",
+        "role": "Desenvolvedor(a) Backend Java Pleno",
+        "duration_years": 3,
+        "description": "Desenvolvimento e manutenção de APIs RESTful utilizando Java 11 e Spring Boot para um sistema de e-commerce. Implementação de microsserviços e integração com bancos de dados PostgreSQL e MongoDB. Experiência com Docker, Kubernetes e CI/CD com Jenkins. Participação em todas as fases do ciclo de vida do desenvolvimento de software, seguindo metodologias ágeis (Scrum)."
+      },
+      {
+        "company": "Startup Inovadora",
+        "role": "Desenvolvedor(a) Java Júnior",
+        "duration_years": 1,
+        "description": "Auxílio no desenvolvimento de módulos backend para uma plataforma de gestão financeira. Utilização de Java 8, Spring MVC e Hibernate. Implementação de testes unitários com JUnit e integração contínua com Git."
+      }
+    ],
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "Microsserviços",
+      "APIs RESTful",
+      "PostgreSQL",
+      "MongoDB",
+      "Docker",
+      "Kubernetes",
+      "AWS (EC2, SQS)",
+      "Kafka",
+      "JUnit",
+      "Mockito",
+      "Git",
+      "Maven",
+      "Jenkins",
+      "Scrum",
+      "Kanban"
+    ],
+    "projects": [
+      {
+        "name": "API de E-commerce Escalável",
+        "description": "Desenvolvimento da API backend para uma plataforma de e-commerce, incluindo módulos de produtos, pedidos e pagamentos. Implementação de microsserviços para garantir escalabilidade e resiliência. Utilização de Spring Boot, Kafka para mensageria e PostgreSQL.",
+        "technologies": [
+          "Java 11",
+          "Spring Boot",
+          "Kafka",
+          "PostgreSQL",
+          "Docker"
+        ]
+      },
+      {
+        "name": "Sistema de Gerenciamento de Conteúdo",
+        "description": "Criação de uma API RESTful para um sistema de gerenciamento de conteúdo, permitindo CRUD de artigos e usuários. Utilização de Spring Boot e MongoDB como banco de dados NoSQL.",
+        "technologies": [
+          "Java 8",
+          "Spring Boot",
+          "MongoDB",
+          "RESTful APIs"
+        ]
+      }
+    ],
+    "certifications": [
+      "AWS Certified Developer - Associate",
+      "Oracle Certified Professional, Java SE 8 Programmer"
+    ],
+    "languages": [
+      "Português (Nativo)",
+      "Inglês (Avançado)"
+    ]
+  },
+  {
+    "candidate_id": 1,
+    "name": "{{NOME}}",
+    "age": 26,
+    "education": {
+      "degree": "Bacharelado em Engenharia de Software",
+      "institution": "Universidade Anhembi Morumbi",
+      "graduation_year": 2020
+    },
+    "experience": [
+      {
+        "company": "Serviços Digitais S.A.",
+        "role": "Desenvolvedor(a) Backend Java Pleno",
+        "duration_years": 2,
+        "description": "Desenvolvimento e manutenção de APIs RESTful para integração de sistemas internos e externos. Utilização de Java 8, Spring Boot e MySQL. Participação ativa em reuniões de planejamento e revisão, aplicando princípios de desenvolvimento ágil (Scrum)."
+      },
+      {
+        "company": "Agência Web Criativa",
+        "role": "Desenvolvedor(a) Java Júnior",
+        "duration_years": 0,
+        "description": "Desenvolvimento de funcionalidades backend para websites e aplicações web. Experiência com Spring MVC e JDBC para acesso a dados. Colaboração em equipe e uso de Git para controle de versão."
+      }
+    ],
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "APIs RESTful",
+      "MySQL",
+      "PostgreSQL",
+      "JUnit",
+      "Maven",
+      "Git",
+      "Scrum",
+      "Confluence",
+      "Jira"
+    ],
+    "projects": [
+      {
+        "name": "API de Gestão de Clientes",
+        "description": "Desenvolvimento de uma API para gerenciar informações de clientes, incluindo autenticação e autorização. Utilização de Spring Boot e MySQL. Foco na segurança e performance da API.",
+        "technologies": [
+          "Java 8",
+          "Spring Boot",
+          "MySQL",
+          "Spring Security"
+        ]
+      },
+      {
+        "name": "Sistema de Blog Interno",
+        "description": "Criação do backend para um sistema de blog, com funcionalidades de postagem, comentários e gerenciamento de usuários. Desenvolvimento com Spring Boot e PostgreSQL.",
+        "technologies": [
+          "Java 8",
+          "Spring Boot",
+          "PostgreSQL",
+          "REST"
+        ]
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      "Português (Nativo)",
+      "Inglês (Intermediário)"
+    ]
+  },
+  {
+    "candidate_id": 2,
+    "name": "{{NOME}}",
+    "age": 24,
+    "education": {
+      "degree": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+      "institution": "Fatec São Paulo",
+      "graduation_year": 2022
+    },
+    "experience": [
+      {
+        "company": "Soluções Cloud Express",
+        "role": "Desenvolvedor(a) Júnior",
+        "duration_years": 1,
+        "description": "Participação no desenvolvimento de pequenas APIs e serviços em Java e Python. Suporte na integração de sistemas e manutenção de bancos de dados PostgreSQL. Contribuição em tarefas de teste e deploy de aplicações."
+      },
+      {
+        "company": "Estágio em Desenvolvimento",
+        "role": "Estagiário(a) Desenvolvedor(a)",
+        "duration_years": 0,
+        "description": "Auxílio no desenvolvimento de protótipos e funcionalidades básicas em Java para um sistema de gestão interna. Aprendizado sobre controle de versão com Git e metodologias ágeis."
+      }
+    ],
+    "skills": [
+      "Java",
+      "Python",
+      "Spring Boot (Básico)",
+      "Flask",
+      "PostgreSQL",
+      "Git",
+      "SQL",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "projects": [
+      {
+        "name": "Sistema de Inventário Básico",
+        "description": "Desenvolvimento de um sistema de inventário simples com funcionalidades CRUD para produtos. Backend em Java com Spring Boot básico e banco de dados PostgreSQL.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "name": "Web Scraper de Notícias",
+        "description": "Criação de um script em Python para coletar notícias de diferentes portais e armazená-las em um banco de dados. Utilização de Flask para uma interface web simples.",
+        "technologies": [
+          "Python",
+          "Flask",
+          "BeautifulSoup",
+          "MongoDB"
+        ]
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      "Português (Nativo)"
+    ]
+  },
+  {
+    "candidate_id": 3,
+    "name": "{{NOME}}",
+    "age": 30,
+    "education": {
+      "degree": "Bacharelado em Sistemas de Informação",
+      "institution": "Universidade de São Paulo (USP)",
+      "graduation_year": 2017
+    },
+    "experience": [
+      {
+        "company": "Corporação Global Tech",
+        "role": "Desenvolvedor(a) Backend Java Sênior",
+        "duration_years": 3,
+        "description": "Liderança técnica e desenvolvimento de microsserviços em Java 17 com Spring Boot e Spring Cloud para uma plataforma financeira de alta performance. Implementação de soluções de mensageria com Apache Kafka e RabbitMQ. Experiência robusta com Azure (AKS, Azure SQL, Azure DevOps) e CI/CD. Mentoria de desenvolvedores juniores e participação em code reviews."
+      },
+      {
+        "company": "Empresa de Software Financeiro",
+        "role": "Desenvolvedor(a) Java Pleno",
+        "duration_years": 2,
+        "description": "Desenvolvimento e manutenção de sistemas legados e novas funcionalidades em Java 8. Migração de aplicações para arquitetura de microsserviços. Otimização de consultas SQL em banco de dados Oracle. Aplicação de princípios SOLID e TDD."
+      }
+    ],
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "Spring Cloud",
+      "Microsserviços",
+      "APIs RESTful",
+      "Azure (AKS, Azure SQL)",
+      "Docker",
+      "Kubernetes",
+      "Oracle DB",
+      "PostgreSQL",
+      "Apache Kafka",
+      "RabbitMQ",
+      "Redis",
+      "JUnit",
+      "Mockito",
+      "Git",
+      "Gradle",
+      "Jenkins",
+      "Azure DevOps",
+      "Scrum",
+      "Kanban",
+      "TDD"
+    ],
+    "projects": [
+      {
+        "name": "Plataforma de Pagamentos Digitais",
+        "description": "Desenvolvimento da arquitetura de microsserviços para uma plataforma de pagamentos, garantindo alta disponibilidade e segurança. Utilização de Java, Spring Boot, Spring Cloud, Kafka e Azure Kubernetes Service (AKS).",
+        "technologies": [
+          "Java 17",
+          "Spring Boot",
+          "Spring Cloud",
+          "Kafka",
+          "Azure",
+          "Kubernetes"
+        ]
+      },
+      {
+        "name": "Sistema de Gestão de Risco",
+        "description": "Modernização de um sistema legado de gestão de risco, refatorando módulos críticos para microsserviços e melhorando a performance de processamento de dados. Banco de dados Oracle e Java 8.",
+        "technologies": [
+          "Java 8",
+          "Spring Boot",
+          "Oracle DB",
+          "Microsserviços"
+        ]
+      }
+    ],
+    "certifications": [
+      "Microsoft Certified: Azure Developer Associate",
+      "Professional Scrum Master I (PSM I)"
+    ],
+    "languages": [
+      "Português (Nativo)",
+      "Inglês (Fluente)",
+      "Espanhol (Básico)"
+    ]
+  },
+  {
+    "candidate_id": 4,
+    "name": "{{NOME}}",
+    "age": 27,
+    "education": {
+      "degree": "Bacharelado em Engenharia da Computação",
+      "institution": "Pontifícia Universidade Católica de São Paulo (PUC-SP)",
+      "graduation_year": 2019
+    },
+    "experience": [
+      {
+        "company": "Tecnologia para o Futuro",
+        "role": "Desenvolvedor(a) Backend Java Pleno",
+        "duration_years": 2,
+        "description": "Desenvolvimento e manutenção de APIs RESTful para aplicações mobile e web utilizando Java 11 e Spring Boot. Integração com bancos de dados MongoDB e PostgreSQL. Implementação de testes unitários e de integração. Participação em cerimônias Scrum e contribuição para a melhoria contínua dos processos."
+      },
+      {
+        "company": "Inovação Digital LTDA",
+        "role": "Desenvolvedor(a) Júnior",
+        "duration_years": 1,
+        "description": "Auxílio no desenvolvimento de serviços backend em Java 8 e Node.js. Colaboração na criação de documentação técnica e suporte à equipe de QA. Utilização de Git para controle de versão."
+      }
+    ],
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "APIs RESTful",
+      "MongoDB",
+      "PostgreSQL",
+      "Node.js",
+      "Express.js",
+      "JUnit",
+      "Maven",
+      "Git",
+      "Scrum",
+      "Kanban",
+      "GCP (Básico)"
+    ],
+    "projects": [
+      {
+        "name": "Backend para Aplicativo de Delivery",
+        "description": "Criação do backend completo para um aplicativo de delivery, incluindo gerenciamento de usuários, pedidos, restaurantes e pagamentos. Utilização de Java 11, Spring Boot e MongoDB.",
+        "technologies": [
+          "Java 11",
+          "Spring Boot",
+          "MongoDB",
+          "RESTful APIs"
+        ]
+      },
+      {
+        "name": "Integração de Gateway de Pagamentos",
+        "description": "Desenvolvimento de um módulo para integrar diferentes gateways de pagamento a uma plataforma existente. Implementação de lógica de retentativa e tratamento de erros. Backend em Java com Spring Boot.",
+        "technologies": [
+          "Java 8",
+          "Spring Boot",
+          "PostgreSQL",
+          "APIs de Terceiros"
+        ]
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      "Português (Nativo)",
+      "Inglês (Avançado)"
+    ]
+  },
+  {
+    "candidate_id": 5,
+    "name": "{{NOME}}",
+    "age": 25,
+    "education": {
+      "degree": "Bacharelado em Ciência da Computação",
+      "institution": "Universidade Presbiteriana Mackenzie",
+      "graduation_year": 2021
+    },
+    "experience": [
+      {
+        "company": "Tecnologia Essencial",
+        "role": "Desenvolvedor(a) Java Júnior",
+        "duration_years": 2,
+        "description": "Desenvolvimento de funcionalidades em Java SE e Spring MVC para um sistema de gestão de estoque. Manutenção de banco de dados MySQL e criação de scripts SQL. Colaboração em equipe e participação em rituais ágeis. Em processo de aprendizado e transição para Spring Boot."
+      },
+      {
+        "company": "Estágio em Desenvolvimento de Software",
+        "role": "Estagiário(a) Desenvolvedor(a)",
+        "duration_years": 0,
+        "description": "Auxílio no desenvolvimento de aplicações desktop com Java Swing e JDBC. Realização de testes básicos e suporte na correção de bugs."
+      }
+    ],
+    "skills": [
+      "Java SE",
+      "Spring MVC",
+      "MySQL",
+      "SQL",
+      "Git",
+      "Maven",
+      "JSP",
+      "Servlets",
+      "Agile (Básico)",
+      "Spring Boot (Estudando)"
+    ],
+    "projects": [
+      {
+        "name": "Sistema de Gerenciamento de Biblioteca",
+        "description": "Projeto universitário para gerenciar livros, usuários e empréstimos em uma biblioteca. Desenvolvido com Java Swing e MySQL.",
+        "technologies": [
+          "Java Swing",
+          "MySQL",
+          "JDBC"
+        ]
+      },
+      {
+        "name": "Aplicação Web de Cadastro",
+        "description": "Pequena aplicação web para cadastro de usuários e produtos. Backend utilizando Spring MVC e JSP, com MySQL para persistência de dados.",
+        "technologies": [
+          "Java",
+          "Spring MVC",
+          "JSP",
+          "MySQL"
+        ]
+      }
+    ],
+    "certifications": [
+      "Certificado de Conclusão do Curso de Java Básico (Alura)"
+    ],
+    "languages": [
+      "Português (Nativo)"
+    ]
+  },
+  {
+    "candidate_id": 6,
+    "name": "{{NOME}}",
+    "age": 29,
+    "education": {
+      "degree": "Bacharelado em Engenharia da Computação",
+      "institution": "Universidade Federal do Rio de Janeiro (UFRJ)",
+      "graduation_year": 2018
+    },
+    "experience": [
+      {
+        "company": "Inovatech Solutions",
+        "role": "Desenvolvedor(a) Backend Java Pleno",
+        "duration_years": 1,
+        "description": "Desenvolvimento e manutenção de microsserviços em Java 17 com Spring Boot e Spring Cloud para uma plataforma de streaming de dados. Experiência com arquitetura orientada a eventos, utilizando Apache Kafka e RabbitMQ. Implantação e gerenciamento de aplicações em AWS (EC2, SQS, RDS). Utilização de Docker e Kubernetes. Aplicação de TDD e Pair Programming."
+      },
+      {
+        "company": "Global Software House",
+        "role": "Desenvolvedor(a) Java Sênior",
+        "duration_years": 3,
+        "description": "Desenvolvimento de sistemas de alta performance em Java EE e Spring Framework para o setor bancário. Liderança técnica em projetos de migração de legado e otimização de performance. Expertise em bancos de dados NoSQL (Cassandra) e SQL (PostgreSQL). Mentoria de equipes juniores e code reviews."
+      }
+    ],
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "Spring Cloud",
+      "Microsserviços",
+      "APIs RESTful",
+      "AWS (EC2, SQS, RDS, Lambda)",
+      "Docker",
+      "Kubernetes",
+      "Apache Kafka",
+      "RabbitMQ",
+      "Cassandra",
+      "PostgreSQL",
+      "JUnit",
+      "Mockito",
+      "Spock",
+      "Git",
+      "Gradle",
+      "Jenkins",
+      "SonarQube",
+      "TDD",
+      "XP",
+      "DDD"
+    ],
+    "projects": [
+      {
+        "name": "Plataforma de Processamento de Dados em Tempo Real",
+        "description": "Desenvolvimento de uma plataforma para ingestão e processamento de grandes volumes de dados em tempo real. Utilização de Java 17, Spring Boot, Kafka para mensageria e Cassandra como banco de dados NoSQL distribuído. Deploy em Kubernetes na AWS.",
+        "technologies": [
+          "Java 17",
+          "Spring Boot",
+          "Kafka",
+          "Cassandra",
+          "Kubernetes",
+          "AWS"
+        ]
+      },
+      {
+        "name": "Sistema de Autenticação e Autorização",
+        "description": "Criação de um serviço de autenticação e autorização centralizado para múltiplos sistemas da empresa. Implementação de padrões de segurança e alta disponibilidade. Backend em Java 8 com Spring Security e PostgreSQL.",
+        "technologies": [
+          "Java 8",
+          "Spring Boot",
+          "Spring Security",
+          "PostgreSQL",
+          "REST"
+        ]
+      }
+    ],
+    "certifications": [
+      "AWS Certified Solutions Architect - Associate",
+      "Oracle Certified Master, Java EE 7 Application Developer"
+    ],
+    "languages": [
+      "Português (Nativo)",
+      "Inglês (Fluente)",
+      "Alemão (Básico)"
+    ]
+  },
+  {
+    "candidate_id": 7,
+    "name": "{{NOME}}",
+    "age": 26,
+    "education": {
+      "degree": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+      "institution": "Universidade Estácio de Sá",
+      "graduation_year": 2020
+    },
+    "experience": [
+      {
+        "company": "Desenvolvedores Ágeis",
+        "role": "Desenvolvedor(a) Backend Java Pleno",
+        "duration_years": 2,
+        "description": "Desenvolvimento e manutenção de APIs RESTful para sistemas internos e externos utilizando Java 11 e Spring Boot. Experiência com bancos de dados PostgreSQL e H2 para testes. Implementação de testes unitários com JUnit. Colaboração em equipe Scrum e participação em code reviews."
+      },
+      {
+        "company": "Estágio em Desenvolvimento Web",
+        "role": "Estagiário(a) Desenvolvedor(a)",
+        "duration_years": 0,
+        "description": "Auxílio no desenvolvimento de páginas web e pequenas funcionalidades em Java para um sistema de gestão de projetos. Aprendizado sobre Git e conceitos de desenvolvimento ágil."
+      }
+    ],
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "APIs RESTful",
+      "PostgreSQL",
+      "H2 Database",
+      "JUnit",
+      "Maven",
+      "Git",
+      "Scrum",
+      "YAML"
+    ],
+    "projects": [
+      {
+        "name": "API de Gestão de Tarefas",
+        "description": "Criação de uma API RESTful para gerenciar tarefas e usuários, com autenticação básica. Utilização de Spring Boot e PostgreSQL. Foco na organização do código e testes.",
+        "technologies": [
+          "Java 11",
+          "Spring Boot",
+          "PostgreSQL",
+          "REST"
+        ]
+      },
+      {
+        "name": "Backend para Pequeno E-commerce",
+        "description": "Desenvolvimento do backend para um pequeno e-commerce, incluindo módulos de produtos, carrinho de compras e checkout. Utilização de Spring Boot e H2 para desenvolvimento e PostgreSQL para produção.",
+        "technologies": [
+          "Java 11",
+          "Spring Boot",
+          "H2",
+          "PostgreSQL"
+        ]
+      }
+    ],
+    "certifications": [
+      "Formação Desenvolvedor Java (Alura)"
+    ],
+    "languages": [
+      "Português (Nativo)",
+      "Inglês (Leitura)"
+    ]
+  },
+  {
+    "candidate_id": 8,
+    "name": "{{NOME}}",
+    "age": 27,
+    "education": {
+      "degree": "Bacharelado em Sistemas Digitais",
+      "institution": "Universidade Federal do ABC (UFABC)",
+      "graduation_year": 2019
+    },
+    "experience": [
+      {
+        "company": "Agência de Marketing Digital",
+        "role": "Desenvolvedor(a) Fullstack",
+        "duration_years": 3,
+        "description": "Desenvolvimento de aplicações web completas, com forte atuação no frontend utilizando React e no backend com Node.js (Express) e ocasionalmente Java (Spring Boot básico) para serviços específicos. Integração com bancos de dados MongoDB e PostgreSQL. Participação em todas as etapas do desenvolvimento, desde o design até a implantação."
+      },
+      {
+        "company": "Estágio em Desenvolvimento Web",
+        "role": "Estagiário(a) Desenvolvedor(a)",
+        "duration_years": 0,
+        "description": "Auxílio no desenvolvimento de interfaces web com HTML, CSS e JavaScript. Suporte na criação de APIs RESTful básicas com Node.js."
+      }
+    ],
+    "skills": [
+      "Java (Básico)",
+      "Spring Boot (Básico)",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "PostgreSQL",
+      "Git",
+      "HTML",
+      "CSS",
+      "RESTful APIs",
+      "Agile (Kanban)"
+    ],
+    "projects": [
+      {
+        "name": "Dashboard de Marketing",
+        "description": "Criação de um dashboard interativo para visualização de métricas de marketing. Frontend em React e backend com Node.js e uma pequena API em Java para integração com sistema legado.",
+        "technologies": [
+          "React",
+          "Node.js",
+          "Java",
+          "Spring Boot",
+          "MongoDB"
+        ]
+      },
+      {
+        "name": "Sistema de Gestão de Conteúdo (Frontend)",
+        "description": "Desenvolvimento do frontend para um sistema de gerenciamento de conteúdo, consumindo APIs REST. Foco na experiência do usuário e responsividade.",
+        "technologies": [
+          "React",
+          "JavaScript",
+          "HTML",
+          "CSS"
+        ]
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      "Português (Nativo)",
+      "Inglês (Intermediário)"
+    ]
+  },
+  {
+    "candidate_id": 9,
+    "name": "{{NOME}}",
+    "age": 31,
+    "education": {
+      "degree": "Bacharelado em Ciência da Computação",
+      "institution": "Universidade Federal de São Carlos (UFSCar)",
+      "graduation_year": 2016
+    },
+    "experience": [
+      {
+        "company": "Fintech Inovadora",
+        "role": "Desenvolvedor(a) Java Pleno/Sênior",
+        "duration_years": 3,
+        "description": "Desenvolvimento e arquitetura de microsserviços críticos para uma plataforma financeira utilizando Java 11, Spring Boot, Spring Security e Spring Cloud. Experiência com GCP (Google Cloud Platform) incluindo App Engine, Cloud SQL e Pub/Sub. Implementação de APIs Gateway e soluções de resiliência. Forte atuação em TDD e DDD. Mentoria de equipes juniores."
+      },
+      {
+        "company": "Empresa de E-commerce",
+        "role": "Desenvolvedor(a) Backend Java",
+        "duration_years": 3,
+        "description": "Desenvolvimento de APIs RESTful para um sistema de e-commerce de grande porte. Utilização de Java 8, Spring Boot e MySQL. Otimização de consultas e performance de banco de dados. Implementação de testes unitários e de integração. Participação em projetos de migração para microsserviços."
+      }
+    ],
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "Spring Security",
+      "Spring Cloud",
+      "Microsserviços",
+      "APIs RESTful",
+      "GCP (App Engine, Cloud SQL, Pub/Sub)",
+      "Docker",
+      "Kubernetes",
+      "MySQL",
+      "Redis",
+      "Apache Kafka",
+      "JUnit",
+      "Mockito",
+      "Pact",
+      "Git",
+      "Maven",
+      "Gradle",
+      "CI/CD (GitLab CI)",
+      "TDD",
+      "DDD",
+      "Scrum",
+      "Kanban"
+    ],
+    "projects": [
+      {
+        "name": "Serviço de Autenticação e Autorização Centralizado",
+        "description": "Desenvolvimento de um serviço de autenticação e autorização de alta segurança e escalabilidade para múltiplos produtos da fintech. Utilização de Java 11, Spring Boot, Spring Security e GCP. Implementação de OAuth2 e JWT.",
+        "technologies": [
+          "Java 11",
+          "Spring Boot",
+          "Spring Security",
+          "GCP",
+          "OAuth2",
+          "JWT"
+        ]
+      },
+      {
+        "name": "API de Catálogo de Produtos Escalável",
+        "description": "Reestruturação e desenvolvimento de uma API de catálogo de produtos para um e-commerce, focando em escalabilidade e baixa latência. Utilização de Java 8, Spring Boot, MySQL e Redis para cache. Implementação de testes de contrato com Pact.",
+        "technologies": [
+          "Java 8",
+          "Spring Boot",
+          "MySQL",
+          "Redis",
+          "Pact"
+        ]
+      }
+    ],
+    "certifications": [
+      "Google Cloud Associate Cloud Engineer",
+      "Professional Scrum Developer (PSD)"
+    ],
+    "languages": [
+      "Português (Nativo)",
+      "Inglês (Fluente)"
+    ]
+  },
+  {
+    "candidate_id": 1,
+    "name": "{{NOME}}",
+    "age": 28,
+    "education": {
+      "degree": "Bacharelado em Ciência da Computação",
+      "institution": "Universidade de São Paulo (USP)",
+      "graduation_year": 2018
+    },
+    "experience": [
+      {
+        "company": "Tech Solutions LTDA",
+        "role": "Desenvolvedor Backend Pleno",
+        "duration_years": 3,
+        "description": "Desenvolvimento e manutenção de APIs RESTful utilizando Java 11 e Spring Boot para sistemas de e-commerce. Implementação de microserviços e integração com serviços AWS (EC2, S3, SQS). Otimização de consultas em PostgreSQL e MongoDB. Participação ativa em todas as fases do ciclo de vida do desenvolvimento de software, seguindo metodologias ágeis (Scrum)."
+      },
+      {
+        "company": "Startup Inovadora",
+        "role": "Desenvolvedor Java Júnior",
+        "duration_years": 1,
+        "description": "Atuação no desenvolvimento de módulos para uma plataforma de gestão financeira, utilizando Java 8 e Spring MVC. Criação de testes unitários com JUnit e integração com banco de dados MySQL. Suporte na resolução de bugs e refatoração de código legado."
+      }
+    ],
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "RESTful APIs",
+      "Microservices",
+      "AWS (EC2, S3, SQS)",
+      "Docker",
+      "PostgreSQL",
+      "MongoDB",
+      "Kafka",
+      "JUnit",
+      "Mockito",
+      "Git",
+      "Maven",
+      "Scrum"
+    ],
+    "projects": [
+      {
+        "name": "Sistema de Gestão de Pedidos Distribuído",
+        "description": "Desenvolvimento de um sistema distribuído para gestão de pedidos, com arquitetura de microserviços, utilizando Spring Cloud e Kafka para comunicação assíncrona. Implementação de Circuit Breaker com Resilience4j.",
+        "technologies": [
+          "Java 11",
+          "Spring Boot",
+          "Spring Cloud",
+          "Kafka",
+          "PostgreSQL",
+          "Docker"
+        ]
+      }
+    ],
+    "certifications": [
+      "AWS Certified Developer - Associate",
+      "Oracle Certified Professional, Java SE 8 Programmer"
+    ],
+    "languages": [
+      "Inglês (Avançado)"
+    ]
+  },
+  {
+    "candidate_id": 2,
+    "name": "{{NOME}}",
+    "age": 26,
+    "education": {
+      "degree": "Tecnologia em Análise e Desenvolvimento de Sistemas",
+      "institution": "FIAP",
+      "graduation_year": 2019
+    },
+    "experience": [
+      {
+        "company": "Digital Connect",
+        "role": "Desenvolvedor Backend",
+        "duration_years": 2,
+        "description": "Desenvolvimento e manutenção de APIs RESTful para integração de sistemas internos e externos em ambiente Java com Spring Framework. Atuação na modelagem e otimização de banco de dados MySQL. Participação em reviews de código e melhoria contínua da qualidade do software."
+      },
+      {
+        "company": "Agência Web Criativa",
+        "role": "Desenvolvedor Júnior",
+        "duration_years": 1,
+        "description": "Desenvolvimento de funcionalidades backend para websites e aplicações web utilizando Java e Spring MVC. Implementação de CRUDs e integração com PostgreSQL. Suporte na implantação de ambientes de desenvolvimento e produção."
+      }
+    ],
+    "skills": [
+      "Java",
+      "Spring Framework",
+      "Spring MVC",
+      "RESTful APIs",
+      "MySQL",
+      "PostgreSQL",
+      "JPA/Hibernate",
+      "Git",
+      "Maven",
+      "Scrum",
+      "Kanban"
+    ],
+    "projects": [
+      {
+        "name": "API de Autenticação e Autorização",
+        "description": "Criação de uma API robusta para gerenciamento de usuários, autenticação via JWT e controle de acesso baseado em roles. Integração com Spring Security e banco de dados relacional.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "Spring Security",
+          "JWT",
+          "PostgreSQL"
+        ]
+      }
+    ],
+    "certifications": [
+      "Certificação em Spring Core"
+    ],
+    "languages": [
+      "Inglês (Intermediário)"
+    ]
+  },
+  {
+    "candidate_id": 3,
+    "name": "{{NOME}}",
+    "age": 30,
+    "education": {
+      "degree": "Engenharia de Software",
+      "institution": "Universidade Estadual de Campinas (UNICAMP)",
+      "graduation_year": 2017
+    },
+    "experience": [
+      {
+        "company": "Global Tech Services",
+        "role": "Engenheiro de Software Backend",
+        "duration_years": 3,
+        "description": "Liderança técnica e desenvolvimento de microserviços críticos utilizando Java 11+ e Spring Boot/Spring Cloud. Experiência com arquiteturas de alta disponibilidade e tolerância a falhas. Implementação de soluções em Azure (Functions, App Services, Cosmos DB). Automação de CI/CD com Jenkins e GitLab CI. Mentoria de desenvolvedores juniores."
+      },
+      {
+        "company": "Software House Brasil",
+        "role": "Desenvolvedor Java Pleno",
+        "duration_years": 2,
+        "description": "Desenvolvimento de funcionalidades backend para sistemas corporativos, com foco em otimização de performance e segurança. Utilização de Java 8, Spring Data JPA e Oracle DB. Participação em projetos de refatoração de código legado e migração para novas tecnologias."
+      }
+    ],
+    "skills": [
+      "Java 11+",
+      "Spring Boot",
+      "Spring Cloud",
+      "Microservices",
+      "Azure (Functions, App Services, Cosmos DB)",
+      "Docker",
+      "Kubernetes",
+      "Jenkins",
+      "Kafka",
+      "Oracle DB",
+      "TDD",
+      "BDD",
+      "Git",
+      "Kanban"
+    ],
+    "projects": [
+      {
+        "name": "Plataforma de Processamento de Eventos em Tempo Real",
+        "description": "Desenvolvimento de uma plataforma para ingestão e processamento de grandes volumes de eventos em tempo real, utilizando Kafka Streams e Spring Cloud Stream. Deployment em Kubernetes no Azure.",
+        "technologies": [
+          "Java 17",
+          "Spring Boot",
+          "Kafka Streams",
+          "Azure Kubernetes Service",
+          "Cosmos DB"
+        ]
+      }
+    ],
+    "certifications": [
+      "Microsoft Certified: Azure Developer Associate"
+    ],
+    "languages": [
+      "Inglês (Avançado)",
+      "Espanhol (Básico)"
+    ]
+  },
+  {
+    "candidate_id": 4,
+    "name": "{{NOME}}",
+    "age": 24,
+    "education": {
+      "degree": "Bacharelado em Sistemas de Informação",
+      "institution": "Pontifícia Universidade Católica de São Paulo (PUC-SP)",
+      "graduation_year": 2021
+    },
+    "experience": [
+      {
+        "company": "Startup de Tecnologia",
+        "role": "Desenvolvedor Java Júnior",
+        "duration_years": 1,
+        "description": "Atuação no desenvolvimento de APIs RESTful para um aplicativo móvel, utilizando Java e Spring Boot. Implementação de operações CRUD, integração com MySQL e H2 Database para testes. Participação em reuniões de planejamento e execução de sprints ágeis."
+      },
+      {
+        "company": "Empresa Júnior de TI",
+        "role": "Estagiário Desenvolvedor",
+        "duration_years": 0.5,
+        "description": "Suporte no desenvolvimento de pequenos sistemas internos utilizando Java SE e banco de dados H2. Auxílio na documentação de requisitos e testes básicos de funcionalidade."
+      }
+    ],
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "RESTful APIs (básico)",
+      "JPA/Hibernate",
+      "MySQL",
+      "H2 Database",
+      "Maven",
+      "Git",
+      "SCRUM (básico)"
+    ],
+    "projects": [
+      {
+        "name": "Sistema de Cadastro de Produtos",
+        "description": "Projeto acadêmico de um sistema CRUD para gerenciamento de produtos, com interface web simples e backend em Spring Boot.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "Thymeleaf",
+          "MySQL"
+        ]
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      "Inglês (Intermediário)"
+    ]
+  },
+  {
+    "candidate_id": 5,
+    "name": "{{NOME}}",
+    "age": 27,
+    "education": {
+      "degree": "Bacharelado em Ciência da Computação",
+      "institution": "Universidade Federal de Minas Gerais (UFMG)",
+      "graduation_year": 2019
+    },
+    "experience": [
+      {
+        "company": "Consultoria de TI",
+        "role": "Desenvolvedor Backend Pleno",
+        "duration_years": 3,
+        "description": "Atuação em diversos projetos de desenvolvimento backend, incluindo modernização de sistemas legados e criação de novas APIs. Experiência com Java 8+, Spring Boot e integração com diferentes bancos de dados (PostgreSQL, SQL Server). Implementação de testes unitários e de integração com JUnit e Mockito. Utilização de Kafka para comunicação assíncrona entre serviços."
+      },
+      {
+        "company": "Indústria de Software",
+        "role": "Desenvolvedor Java Júnior",
+        "duration_years": 0.5,
+        "description": "Desenvolvimento de módulos para um sistema de gestão industrial, focado em otimização de processos. Utilização de Java e Spring Data JPA. Participação em rituais Scrum e contribuição para a melhoria contínua do processo de desenvolvimento."
+      }
+    ],
+    "skills": [
+      "Java 8+",
+      "Spring Boot",
+      "RESTful APIs",
+      "SOAP",
+      "PostgreSQL",
+      "SQL Server",
+      "Apache Kafka (consumidor)",
+      "JUnit",
+      "Mockito",
+      "Git",
+      "GitLab CI",
+      "Scrum",
+      "Refatoração"
+    ],
+    "projects": [
+      {
+        "name": "Sistema de Notificações Unificado",
+        "description": "Desenvolvimento de um serviço backend para centralizar o envio de notificações (email, SMS, push) para usuários, utilizando Spring Boot e integrando com Kafka para fila de mensagens.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "Kafka",
+          "PostgreSQL",
+          "REST"
+        ]
+      }
+    ],
+    "certifications": [
+      "Professional Scrum Developer I"
+    ],
+    "languages": [
+      "Inglês (Avançado)"
+    ]
+  },
+  {
+    "candidate_id": 6,
+    "name": "{{NOME}}",
+    "age": 29,
+    "education": {
+      "degree": "Bacharelado em Engenharia da Computação",
+      "institution": "Instituto Tecnológico de Aeronáutica (ITA)",
+      "graduation_year": 2017
+    },
+    "experience": [
+      {
+        "company": "Fintech Disruptiva",
+        "role": "Engenheiro de Software Backend Sênior (Pleno)",
+        "duration_years": 3,
+        "description": "Desenvolvimento de APIs de alta performance e baixa latência para sistemas financeiros críticos, utilizando Java 17, Spring Boot e Spring WebFlux. Implementação de arquiteturas reativas e microserviços. Experiência profunda com Google Cloud Platform (Compute Engine, Cloud Run, Cloud Spanner) e Kafka Streams para processamento de eventos. Orquestração com Docker e Kubernetes."
+      },
+      {
+        "company": "Empresa de Telecomunicações",
+        "role": "Desenvolvedor Java",
+        "duration_years": 2,
+        "description": "Atuação no desenvolvimento de sistemas de billing e gestão de clientes, utilizando Java EE e Spring MVC. Otimização de consultas em Oracle DB e implementação de APIs RESTful para integração. Participação na migração de sistemas monolíticos para uma arquitetura de serviços."
+      }
+    ],
+    "skills": [
+      "Java 17",
+      "Spring Boot",
+      "Spring WebFlux",
+      "Microservices",
+      "GCP (Compute Engine, Cloud Run, Cloud Spanner)",
+      "Kafka Streams",
+      "Redis",
+      "Docker",
+      "Kubernetes",
+      "Grafana",
+      "Prometheus",
+      "Git",
+      "TDD",
+      "Programação Reativa"
+    ],
+    "projects": [
+      {
+        "name": "Motor de Recomendações em Tempo Real",
+        "description": "Desenvolvimento de um motor de recomendações personalizado para e-commerce, utilizando Kafka Streams para processar interações de usuários e Redis para cache de resultados. Deployment em Cloud Run no GCP.",
+        "technologies": [
+          "Java 17",
+          "Spring Boot",
+          "Kafka Streams",
+          "Redis",
+          "GCP Cloud Run"
+        ]
+      }
+    ],
+    "certifications": [
+      "Google Cloud Certified - Professional Cloud Developer"
+    ],
+    "languages": [
+      "Inglês (Fluente)"
+    ]
+  },
+  {
+    "candidate_id": 7,
+    "name": "{{NOME}}",
+    "age": 32,
+    "education": {
+      "degree": "Pós-graduação em Desenvolvimento Web Fullstack",
+      "institution": "Descomplica",
+      "graduation_year": 2020
+    },
+    "experience": [
+      {
+        "company": "Agência de Marketing Digital",
+        "role": "Desenvolvedor Fullstack",
+        "duration_years": 2,
+        "description": "Desenvolvimento de aplicações web completas utilizando Node.js e React para o frontend. Implementação de APIs RESTful com Express.js e integração com PostgreSQL e MongoDB. Recentemente, iniciou projetos backend em Java, adquirindo conhecimentos básicos em Spring Boot para pequenos serviços."
+      },
+      {
+        "company": "Empresa de Consultoria",
+        "role": "Analista de Processos",
+        "duration_years": 3,
+        "description": "Análise e otimização de processos de negócio, documentação de requisitos e levantamento de necessidades para sistemas. Familiaridade com lógica de programação e bancos de dados."
+      }
+    ],
+    "skills": [
+      "Java (básico)",
+      "Spring Boot (básico)",
+      "Node.js",
+      "Express.js",
+      "React",
+      "JavaScript",
+      "PostgreSQL",
+      "MongoDB",
+      "Git",
+      "HTML/CSS"
+    ],
+    "projects": [
+      {
+        "name": "Blog Pessoal com Backend em Java",
+        "description": "Projeto pessoal para praticar Java e Spring Boot, desenvolvendo uma API para um blog simples (CRUD de posts e comentários).",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "H2 Database",
+          "REST"
+        ]
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      "Inglês (Intermediário)"
+    ]
+  },
+  {
+    "candidate_id": 8,
+    "name": "{{NOME}}",
+    "age": 25,
+    "education": {
+      "degree": "Tecnologia em Sistemas para Internet",
+      "institution": "SENAC",
+      "graduation_year": 2020
+    },
+    "experience": [
+      {
+        "company": "E-commerce Solutions",
+        "role": "Desenvolvedor Backend Java",
+        "duration_years": 2.5,
+        "description": "Desenvolvimento e manutenção de APIs RESTful para plataforma de e-commerce de grande porte. Utilização de Java e Spring Boot para serviços de catálogo de produtos, carrinho de compras e checkout. Integração com Elasticsearch para busca e RabbitMQ para processamento assíncrono de pedidos. Orquestração com Docker e participação ativa em sprints Scrum."
+      },
+      {
+        "company": "Desenvolvimento Web Freelancer",
+        "role": "Desenvolvedor Web",
+        "duration_years": 0.5,
+        "description": "Criação de websites e sistemas web simples para clientes, utilizando PHP e MySQL. Experiência com desenvolvimento frontend básico."
+      }
+    ],
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "RESTful APIs",
+      "MySQL",
+      "Elasticsearch",
+      "RabbitMQ",
+      "Docker",
+      "Git",
+      "Maven",
+      "Scrum",
+      "JPA/Hibernate"
+    ],
+    "projects": [
+      {
+        "name": "API de Gestão de Estoque",
+        "description": "Desenvolvimento de uma API para controle de estoque em tempo real, com funcionalidades de entrada e saída de produtos, e integração com um sistema de pedidos via RabbitMQ.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "MySQL",
+          "RabbitMQ"
+        ]
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      "Inglês (Intermediário)"
+    ]
+  },
+  {
+    "candidate_id": 9,
+    "name": "{{NOME}}",
+    "age": 31,
+    "education": {
+      "degree": "Mestrado em Ciência da Computação (Sistemas Distribuídos)",
+      "institution": "Universidade de São Paulo (USP)",
+      "graduation_year": 2016
+    },
+    "experience": [
+      {
+        "company": "Banco Digital S.A.",
+        "role": "Engenheiro de Software Backend Sênior (Pleno)",
+        "duration_years": 4,
+        "description": "Liderança técnica e desenvolvimento de arquiteturas de microserviços e sistemas distribuídos de alta complexidade para o setor financeiro. Migração de sistemas legados Java EE para Spring Boot. Experiência com mensageria (Kafka, JMS), bancos de dados Oracle e PostgreSQL, e ferramentas de CI/CD (Jenkins, SonarQube). Expertise em Docker e Kubernetes para orquestração de containers."
+      },
+      {
+        "company": "Grande Corporação de TI",
+        "role": "Desenvolvedor Java Pleno",
+        "duration_years": 2,
+        "description": "Atuação no desenvolvimento e manutenção de sistemas Java EE para clientes corporativos. Otimização de aplicações e implementação de APIs RESTful. Participação em projetos de refatoração e melhoria contínua de código."
+      }
+    ],
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "Spring Data JPA",
+      "Microservices",
+      "RESTful APIs",
+      "Kafka",
+      "JMS",
+      "Oracle",
+      "PostgreSQL",
+      "Docker",
+      "Kubernetes",
+      "Jenkins",
+      "SonarQube",
+      "Git",
+      "Scrum",
+      "Kanban",
+      "Sistemas Distribuídos"
+    ],
+    "projects": [
+      {
+        "name": "Plataforma de Integração de Pagamentos",
+        "description": "Arquitetura e desenvolvimento de uma plataforma de integração de pagamentos para múltiplos adquirentes, utilizando microserviços com Spring Boot, Kafka para eventos e deployment em Kubernetes.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "Kafka",
+          "PostgreSQL",
+          "Kubernetes",
+          "Docker"
+        ]
+      }
+    ],
+    "certifications": [
+      "Oracle Certified Master, Java EE 7 Enterprise Architect"
+    ],
+    "languages": [
+      "Inglês (Avançado)",
+      "Alemão (Básico)"
+    ]
+  },
+  {
+    "candidate_id": 10,
+    "name": "{{NOME}}",
+    "age": 23,
+    "education": {
+      "degree": "Curso Técnico em Desenvolvimento de Sistemas",
+      "institution": "ETEC",
+      "graduation_year": 2022
+    },
+    "experience": [
+      {
+        "company": "Empresa de Software Educacional",
+        "role": "Estagiário Desenvolvedor Java",
+        "duration_years": 1,
+        "description": "Auxílio no desenvolvimento de funcionalidades para um sistema de gestão acadêmica, utilizando Java SE e Spring Boot (básico). Implementação de APIs RESTful simples e integração com H2 Database. Participação em reuniões de equipe e aprendizado contínuo sobre boas práticas de codificação."
+      }
+    ],
+    "skills": [
+      "Java (básico)",
+      "Spring Boot (básico)",
+      "SQL",
+      "H2 Database",
+      "Git",
+      "Maven (básico)",
+      "HTML/CSS"
+    ],
+    "projects": [
+      {
+        "name": "Sistema de Biblioteca Acadêmica",
+        "description": "Projeto de conclusão de curso técnico, desenvolvendo um sistema CRUD para gerenciamento de livros e empréstimos, com backend em Java e Spring Boot.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "H2 Database",
+          "Thymeleaf"
+        ]
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      "Inglês (Básico)"
+    ]
+  },
+  {
+    "candidate_id": 0,
+    "name": "{{NOME}}",
+    "age": 28,
+    "education": {
+      "degree": "Bacharelado em Ciência da Computação",
+      "institution": "Universidade de São Paulo (USP)",
+      "graduation_year": 2018
+    },
+    "experience": [
+      {
+        "company": "TechSolutions Ltda.",
+        "role": "Desenvolvedor Backend Java Pleno",
+        "duration_years": 3,
+        "description": "Responsável pelo desenvolvimento e manutenção de microserviços em Java 11+ com Spring Boot, utilizando arquitetura de eventos com Apache Kafka. Atuação no deploy e monitoramento de aplicações em AWS (EC2, Lambda, SQS) e Docker. Implementação de testes unitários e de integração (JUnit, Mockito). Participação ativa em cerimônias Scrum."
+      },
+      {
+        "company": "Inovatech Sistemas",
+        "role": "Desenvolvedor Java Júnior",
+        "duration_years": 1,
+        "description": "Desenvolvimento de APIs RESTful utilizando Java 8 e Spring MVC para integração de sistemas. Manutenção de banco de dados PostgreSQL e otimização de queries. Colaboração com equipes de front-end para entrega de funcionalidades."
+      }
+    ],
+    "skills": [
+      "Java 11+",
+      "Spring Boot",
+      "Microservices",
+      "RESTful APIs",
+      "Apache Kafka",
+      "AWS (EC2, Lambda, SQS)",
+      "Docker",
+      "Kubernetes",
+      "PostgreSQL",
+      "MongoDB",
+      "Git",
+      "Jenkins",
+      "Agile (Scrum)",
+      "TDD",
+      "JUnit",
+      "Mockito"
+    ],
+    "projects": [
+      {
+        "name": "Plataforma de E-commerce Distribuída",
+        "description": "Desenvolvimento de um sistema de e-commerce baseado em microserviços, utilizando Spring Boot para os serviços de catálogo, pedidos e pagamentos. Integração com Kafka para processamento assíncrono de eventos e deploy em ambiente AWS.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "Kafka",
+          "AWS",
+          "Docker",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "name": "API de Integração de Dados Financeiros",
+        "description": "Criação de APIs robustas para integração de dados financeiros de diversas fontes, garantindo segurança e performance. Utilização de Spring Security e Hibernate.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "REST",
+          "MySQL",
+          "Spring Security"
+        ]
+      }
+    ],
+    "certifications": [
+      "Oracle Certified Professional, Java SE 11 Developer",
+      "AWS Certified Developer – Associate"
+    ],
+    "languages": [
+      "Português (Nativo)",
+      "Inglês (Fluente)"
+    ]
+  },
+  {
+    "candidate_id": 1,
+    "name": "{{NOME}}",
+    "age": 30,
+    "education": {
+      "degree": "Engenharia de Software",
+      "institution": "Universidade Estadual de Campinas (UNICAMP)",
+      "graduation_year": 2017
+    },
+    "experience": [
+      {
+        "company": "Global Solutions Inc.",
+        "role": "Engenheiro de Software Backend",
+        "duration_years": 3,
+        "description": "Desenvolvimento de soluções escaláveis utilizando Java 11 e Spring Cloud para arquiteturas de microserviços. Experiência com Azure DevOps para CI/CD e monitoramento de aplicações. Otimização de consultas e modelagem de dados em SQL Server e Redis. Mentoria para desenvolvedores juniores."
+      },
+      {
+        "company": "Digital Minds",
+        "role": "Desenvolvedor Java Pleno",
+        "duration_years": 2,
+        "description": "Implementação de funcionalidades em sistemas legados e novos módulos com Java 8 e Spring Boot. Atuação na migração de aplicações para a nuvem Azure, utilizando Azure App Services e Functions. Participação em revisões de código e definição de melhores práticas."
+      }
+    ],
+    "skills": [
+      "Java 8/11",
+      "Spring Boot",
+      "Spring Cloud",
+      "RESTful APIs",
+      "Azure (Functions, App Services, DevOps)",
+      "SQL Server",
+      "Redis",
+      "Git",
+      "Maven",
+      "Docker",
+      "Kubernetes",
+      "SonarQube",
+      "DDD",
+      "Design Patterns"
+    ],
+    "projects": [
+      {
+        "name": "API Gateway para Sistema Financeiro",
+        "description": "Criação e manutenção de um API Gateway utilizando Spring Cloud Gateway para centralizar e gerenciar requisições para diversos microserviços de um sistema financeiro, implementando autenticação e roteamento dinâmico.",
+        "technologies": [
+          "Java",
+          "Spring Cloud Gateway",
+          "Spring Security",
+          "Azure",
+          "Docker"
+        ]
+      },
+      {
+        "name": "Migração de Monolito para Microserviços",
+        "description": "Liderança técnica na refatoração de um sistema monolítico Java EE para uma arquitetura de microserviços baseada em Spring Boot e implantada no Azure Kubernetes Service (AKS).",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "Spring Cloud",
+          "Kubernetes",
+          "Azure"
+        ]
+      }
+    ],
+    "certifications": [
+      "Microsoft Certified: Azure Developer Associate"
+    ],
+    "languages": [
+      "Português (Nativo)",
+      "Inglês (Avançado)"
+    ]
+  },
+  {
+    "candidate_id": 2,
+    "name": "{{NOME}}",
+    "age": 26,
+    "education": {
+      "degree": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+      "institution": "FIAP",
+      "graduation_year": 2019
+    },
+    "experience": [
+      {
+        "company": "SysCorp Consultoria",
+        "role": "Desenvolvedor Backend Java Pleno",
+        "duration_years": 3,
+        "description": "Desenvolvimento e manutenção de sistemas corporativos com Java 8 e Spring Boot. Criação de APIs RESTful para integração com sistemas legados e aplicações de terceiros. Utilização de Hibernate/JPA para persistência de dados em MySQL. Colaboração em equipes ágeis (Kanban)."
+      }
+    ],
+    "skills": [
+      "Java 8",
+      "Spring Boot",
+      "RESTful APIs",
+      "MySQL",
+      "Hibernate",
+      "JPA",
+      "Git",
+      "Maven",
+      "JUnit",
+      "Mockito",
+      "SOAP",
+      "SQL Server",
+      "Linux"
+    ],
+    "projects": [
+      {
+        "name": "Módulo de Gestão de Estoque ERP",
+        "description": "Desenvolvimento de um módulo completo para gestão de estoque dentro de um sistema ERP, incluindo APIs para registro de produtos, controle de movimentações e relatórios. Backend em Java com Spring Boot e MySQL.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "MySQL",
+          "REST"
+        ]
+      },
+      {
+        "name": "Sistema de Agendamento Online",
+        "description": "Criação do backend para um sistema de agendamento online, gerenciando usuários, serviços e horários. Implementação de autenticação e autorização via Spring Security.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "PostgreSQL",
+          "Spring Security"
+        ]
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      "Português (Nativo)",
+      "Inglês (Intermediário)"
+    ]
+  },
+  {
+    "candidate_id": 3,
+    "name": "{{NOME}}",
+    "age": 27,
+    "education": {
+      "degree": "Bacharelado em Sistemas de Informação",
+      "institution": "Universidade Federal de Minas Gerais (UFMG)",
+      "graduation_year": 2018
+    },
+    "experience": [
+      {
+        "company": "NextGen Technologies",
+        "role": "Desenvolvedor Backend Pleno",
+        "duration_years": 2,
+        "description": "Atuação com Java 11 e Spring Boot no desenvolvimento de novas features para uma plataforma de SaaS. Experiência com deployment em AWS (RDS, S3) e Docker. Colaboração em pipelines de CI/CD com GitLab CI. Anteriormente, desenvolvia em Python/Flask para processamento de dados."
+      },
+      {
+        "company": "DataHub Solutions",
+        "role": "Analista Desenvolvedor Júnior",
+        "duration_years": 1,
+        "description": "Desenvolvimento de scripts e APIs em Python com Flask para automação de processos e integração de dados. Manutenção de bancos de dados PostgreSQL. Suporte à equipe de engenharia de dados."
+      }
+    ],
+    "skills": [
+      "Java 11",
+      "Spring Boot",
+      "Python",
+      "Flask",
+      "RESTful APIs",
+      "PostgreSQL",
+      "AWS (S3, RDS)",
+      "Docker",
+      "Git",
+      "GitLab CI",
+      "FastAPI",
+      "JUnit",
+      "Pytest"
+    ],
+    "projects": [
+      {
+        "name": "Backend para Aplicativo de Fidelidade",
+        "description": "Desenvolvimento do backend para um aplicativo de fidelidade em Java 11 com Spring Boot, incluindo gerenciamento de usuários, pontos e recompensas. Integração com serviços de notificação.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "PostgreSQL",
+          "REST"
+        ]
+      },
+      {
+        "name": "Ferramenta de Automação de Carga de Dados",
+        "description": "Criação de uma ferramenta em Python/Flask para automatizar a extração, transformação e carga de dados de diversas fontes para um data warehouse.",
+        "technologies": [
+          "Python",
+          "Flask",
+          "PostgreSQL",
+          "Pandas"
+        ]
+      }
+    ],
+    "certifications": [
+      "AWS Certified Cloud Practitioner"
+    ],
+    "languages": [
+      "Português (Nativo)",
+      "Inglês (Avançado)",
+      "Espanhol (Básico)"
+    ]
+  },
+  {
+    "candidate_id": 4,
+    "name": "{{NOME}}",
+    "age": 29,
+    "education": {
+      "degree": "Bacharelado em Engenharia da Computação",
+      "institution": "Instituto Tecnológico de Aeronáutica (ITA)",
+      "graduation_year": 2017
+    },
+    "experience": [
+      {
+        "company": "DataStream Solutions",
+        "role": "Engenheiro de Software Backend Sênior",
+        "duration_years": 2,
+        "description": "Liderança técnica no desenvolvimento de sistemas de alta performance e baixa latência para processamento de eventos em tempo real com Java 11+ e Spring WebFlux. Implementação de soluções de persistência com Apache Cassandra, Redis e Elasticsearch. Monitoramento com Prometheus e Grafana. Mentoria e Code Review."
+      },
+      {
+        "company": "FinTech Innovations",
+        "role": "Desenvolvedor Backend Java Pleno",
+        "duration_years": 2,
+        "description": "Desenvolvimento de APIs RESTful para serviços financeiros utilizando Java 8 e Spring Boot. Atuação na otimização de performance e escalabilidade de sistemas críticos. Experiência com Apache Kafka para comunicação assíncrona entre microserviços. Deploy e gerenciamento com Docker e Kubernetes."
+      }
+    ],
+    "skills": [
+      "Java 11+",
+      "Spring Boot",
+      "Spring WebFlux",
+      "Apache Kafka",
+      "Apache Cassandra",
+      "Redis",
+      "Elasticsearch",
+      "AWS (Kinesis, Lambda)",
+      "Docker",
+      "Kubernetes",
+      "Prometheus",
+      "Grafana",
+      "Git",
+      "Jenkins",
+      "TDD",
+      "JUnit",
+      "Mockito"
+    ],
+    "projects": [
+      {
+        "name": "Sistema de Processamento de Eventos em Tempo Real",
+        "description": "Desenvolvimento de uma plataforma para ingestão e processamento de milhões de eventos por segundo, utilizando Java com Spring WebFlux, Apache Kafka e Apache Cassandra para persistência de dados.",
+        "technologies": [
+          "Java",
+          "Spring WebFlux",
+          "Kafka",
+          "Cassandra",
+          "Redis"
+        ]
+      },
+      {
+        "name": "Otimização de APIs para Alta Concorrência",
+        "description": "Refatoração e otimização de APIs críticas para suportar alta carga de requisições, resultando em uma redução de 40% na latência e aumento da capacidade de processamento.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "PostgreSQL",
+          "Redis"
+        ]
+      }
+    ],
+    "certifications": [
+      "Confluent Certified Developer for Apache Kafka"
+    ],
+    "languages": [
+      "Português (Nativo)",
+      "Inglês (Fluente)"
+    ]
+  },
+  {
+    "candidate_id": 5,
+    "name": "{{NOME}}",
+    "age": 24,
+    "education": {
+      "degree": "Bacharelado em Ciência da Computação",
+      "institution": "Universidade Federal do Rio de Janeiro (UFRJ)",
+      "graduation_year": 2022
+    },
+    "experience": [
+      {
+        "company": "StartUp Digital",
+        "role": "Desenvolvedor Júnior",
+        "duration_years": 2,
+        "description": "Atuação no desenvolvimento de novas funcionalidades para aplicações web, utilizando principalmente JavaScript com React para front-end e ocasionalmente Java 8 com Spring MVC para pequenas APIs. Manutenção de banco de dados MySQL e participação em rotinas de deploy."
+      }
+    ],
+    "skills": [
+      "Java 8",
+      "Spring MVC",
+      "JavaScript",
+      "React",
+      "HTML/CSS",
+      "MySQL",
+      "Git",
+      "Maven",
+      "JQuery"
+    ],
+    "projects": [
+      {
+        "name": "Dashboard de Monitoramento de Vendas",
+        "description": "Desenvolvimento da interface de usuário (React) e de algumas APIs de dados (Java 8, Spring MVC) para um dashboard que exibe métricas de vendas em tempo real.",
+        "technologies": [
+          "Java",
+          "Spring MVC",
+          "React",
+          "MySQL"
+        ]
+      },
+      {
+        "name": "Pequeno Sistema de Gerenciamento de Tarefas",
+        "description": "Criação de um backend em Java com Spring Boot (projeto pessoal) para um sistema de gerenciamento de tarefas, incluindo operações CRUD e autenticação básica.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "H2 Database"
+        ]
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      "Português (Nativo)",
+      "Inglês (Intermediário)"
+    ]
+  },
+  {
+    "candidate_id": 6,
+    "name": "{{NOME}}",
+    "age": 32,
+    "education": {
+      "degree": "Análise e Desenvolvimento de Sistemas",
+      "institution": "Universidade Estácio de Sá",
+      "graduation_year": 2016
+    },
+    "experience": [
+      {
+        "company": "Legacy Systems Consultoria",
+        "role": "Analista Desenvolvedor Pleno",
+        "duration_years": 3,
+        "description": "Manutenção e evolução de sistemas legados em Java EE (JSP, Servlets, EJB) e migração gradual de módulos para Spring Boot. Desenvolvimento de novas APIs RESTful com Java 11 e Spring Boot para integração. Otimização de queries em Oracle DB e SQL Server. Atuação em ambiente com controle de versão SVN e Git."
+      },
+      {
+        "company": "SoftCorp Brasil",
+        "role": "Desenvolvedor Java Júnior",
+        "duration_years": 3,
+        "description": "Desenvolvimento de aplicações web com Java EE, Apache Tomcat e JBoss. Participação no ciclo de vida de desenvolvimento de software, desde a análise de requisitos até a implementação e testes. Suporte a sistemas em produção."
+      }
+    ],
+    "skills": [
+      "Java 8/11",
+      "Spring Boot",
+      "Spring MVC",
+      "Java EE (JSP, Servlets, EJB)",
+      "Oracle DB",
+      "SQL Developer",
+      "Git",
+      "SVN",
+      "Apache Tomcat",
+      "JBoss",
+      "JUnit",
+      "RESTful APIs"
+    ],
+    "projects": [
+      {
+        "name": "Modernização de Sistema de CRM",
+        "description": "Participação na refatoração de um sistema de CRM monolítico Java EE, migrando funcionalidades críticas para microserviços baseados em Spring Boot e expondo-as via APIs REST.",
+        "technologies": [
+          "Java EE",
+          "Spring Boot",
+          "Oracle DB",
+          "REST"
+        ]
+      },
+      {
+        "name": "Desenvolvimento de APIs para Plataforma Logística",
+        "description": "Criação de APIs REST para uma nova plataforma logística, permitindo o gerenciamento de rotas, veículos e entregas. Backend com Spring Boot e PostgreSQL.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "PostgreSQL",
+          "REST"
+        ]
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      "Português (Nativo)",
+      "Inglês (Básico)"
+    ]
+  },
+  {
+    "candidate_id": 7,
+    "name": "{{NOME}}",
+    "age": 29,
+    "education": {
+      "degree": "Bacharelado em Engenharia de Software",
+      "institution": "Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)",
+      "graduation_year": 2018
+    },
+    "experience": [
+      {
+        "company": "Innovatech Solutions",
+        "role": "Engenheiro de Software Full Stack (Foco Backend)",
+        "duration_years": 2,
+        "description": "Atuação como Full Stack com forte especialização em backend Java 11+ e Spring Boot, desenvolvendo microserviços e APIs RESTful. Experiência com Docker e Kubernetes para orquestração de contêineres e deploy em AWS EKS. Contribuição em projetos front-end com Vue.js. Implementação de CI/CD com CircleCI."
+      },
+      {
+        "company": "DigitalCraft Studios",
+        "role": "Desenvolvedor Backend Java Pleno",
+        "duration_years": 2,
+        "description": "Desenvolvimento e manutenção de APIs REST com Java 8 e Spring Boot para um portal de notícias. Modelagem de dados e otimização de queries em PostgreSQL. Participação em todas as fases do desenvolvimento, desde a concepção até a entrega."
+      }
+    ],
+    "skills": [
+      "Java 11+",
+      "Spring Boot",
+      "Spring Data JPA",
+      "RESTful APIs",
+      "Microservices",
+      "Docker",
+      "Kubernetes",
+      "AWS (EKS, ECS)",
+      "PostgreSQL",
+      "Redis",
+      "Vue.js",
+      "React",
+      "Node.js (Básico)",
+      "Git",
+      "CircleCI",
+      "Jest",
+      "Cypress"
+    ],
+    "projects": [
+      {
+        "name": "Plataforma SaaS de Gestão de Eventos",
+        "description": "Desenvolvimento do backend de uma plataforma SaaS de gestão de eventos, utilizando arquitetura de microserviços em Java com Spring Boot. Implementação de APIs para gerenciamento de eventos, inscrições e pagamentos. Deploy em Kubernetes na AWS.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "Microservices",
+          "Kubernetes",
+          "AWS",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "name": "APIs de Integração com Parceiros",
+        "description": "Criação de um conjunto de APIs para permitir a integração com sistemas de parceiros, garantindo segurança (OAuth2) e robustez. Desenvolvimento em Java 11 com Spring Boot e Spring Security.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "REST",
+          "OAuth2",
+          "Redis"
+        ]
+      }
+    ],
+    "certifications": [
+      "Spring Certified Professional"
+    ],
+    "languages": [
+      "Português (Nativo)",
+      "Inglês (Fluente)"
+    ]
+  },
+  {
+    "candidate_id": 8,
+    "name": "{{NOME}}",
+    "age": 31,
+    "education": {
+      "degree": "Mestrado em Ciência da Computação (Foco em Processamento de Dados)",
+      "institution": "Universidade de São Paulo (USP)",
+      "graduation_year": 2017
+    },
+    "experience": [
+      {
+        "company": "DataBridge Integrations",
+        "role": "Engenheiro de Integração Backend",
+        "duration_years": 2,
+        "description": "Desenvolvimento de soluções de integração de sistemas complexos utilizando Java 11, Apache Camel e Spring Integration. Implementação de pipelines de dados com Apache Kafka para processamento e roteamento de mensagens. Experiência com bancos de dados PostgreSQL e MongoDB."
+      },
+      {
+        "company": "Enterprise Solutions",
+        "role": "Desenvolvedor Backend Java Pleno",
+        "duration_years": 1,
+        "description": "Desenvolvimento e manutenção de APIs REST e SOAP para sistemas corporativos em Java 8 e Spring Boot. Atuação na criação de conectores para sistemas legados e na otimização de fluxos de dados."
+      }
+    ],
+    "skills": [
+      "Java 8/11",
+      "Apache Camel",
+      "Spring Integration",
+      "Apache Kafka",
+      "Hadoop (Básico)",
+      "Spark (Básico)",
+      "PostgreSQL",
+      "MongoDB",
+      "RESTful APIs",
+      "SOAP",
+      "Git",
+      "Maven",
+      "Jenkins"
+    ],
+    "projects": [
+      {
+        "name": "Plataforma de Integração de Dados B2B",
+        "description": "Criação de uma plataforma robusta para integração de dados entre empresas parceiras, utilizando Apache Camel e Apache Kafka para garantir a entrega confiável e o processamento de grandes volumes de mensagens.",
+        "technologies": [
+          "Java",
+          "Apache Camel",
+          "Kafka",
+          "MongoDB",
+          "REST"
+        ]
+      },
+      {
+        "name": "Conectores para Sistemas Legados",
+        "description": "Desenvolvimento de conectores personalizados em Java com Spring Integration para permitir a comunicação de sistemas modernos com aplicações legadas baseadas em diferentes tecnologias e protocolos.",
+        "technologies": [
+          "Java",
+          "Spring Integration",
+          "SOAP",
+          "JMS"
+        ]
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      "Português (Nativo)",
+      "Inglês (Avançado)"
+    ]
+  },
+  {
+    "candidate_id": 9,
+    "name": "{{NOME}}",
+    "age": 23,
+    "education": {
+      "degree": "Bacharelado em Ciência da Computação",
+      "institution": "Universidade Federal de Minas Gerais (UFMG)",
+      "graduation_year": 2023
+    },
+    "experience": [
+      {
+        "company": "TechTrainee Solutions",
+        "role": "Desenvolvedor Java Júnior",
+        "duration_years": 0.5,
+        "description": "Atuação como desenvolvedor júnior, contribuindo para o desenvolvimento e manutenção de pequenas APIs REST com Java 8 e Spring Boot. Participação em reuniões de equipe e apoio na resolução de bugs."
+      },
+      {
+        "company": "EduTech Lab",
+        "role": "Estagiário em Desenvolvimento Backend",
+        "duration_years": 1,
+        "description": "Aprendizado e aplicação de conceitos de programação orientada a objetos em Java. Desenvolvimento de protótipos de APIs REST simples para projetos acadêmicos e internos. Utilização de MySQL para persistência de dados e Git para controle de versão."
+      }
+    ],
+    "skills": [
+      "Java 8",
+      "Algoritmos e Estruturas de Dados",
+      "SQL (MySQL)",
+      "Git",
+      "Spring Boot (Básico)",
+      "HTML/CSS",
+      "JavaScript (Básico)",
+      "RESTful APIs"
+    ],
+    "projects": [
+      {
+        "name": "Sistema de Gerenciamento de Biblioteca",
+        "description": "Projeto universitário que consiste em um sistema backend em Java para gerenciamento de livros, usuários e empréstimos. Implementação de APIs REST para operações CRUD.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "MySQL"
+        ]
+      },
+      {
+        "name": "API de Cotação de Moedas",
+        "description": "Desenvolvimento de uma API REST simples em Java durante o estágio, que consumia dados de uma fonte externa para fornecer cotações de moedas em tempo real.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "REST"
+        ]
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      "Português (Nativo)",
+      "Inglês (Intermediário)"
+    ]
+  },
+  {
+    "candidate_id": 1,
+    "name": "{{NOME}}",
+    "age": 28,
+    "education": {
+      "degree": "Bacharelado em Ciência da Computação",
+      "institution": "Universidade Federal de Minas Gerais (UFMG)",
+      "graduation_year": 2018
+    },
+    "experience": [
+      {
+        "company": "Tech Innovators S.A.",
+        "role": "Desenvolvedor Backend Java Pleno",
+        "duration_years": 3,
+        "description": "Desenvolvimento e manutenção de APIs RESTful utilizando Java 11/17 e Spring Boot. Implementação de microserviços e integração com sistemas legados. Experiência com AWS EC2, S3, SQS e RDS (PostgreSQL). Participação ativa em todas as fases do ciclo de desenvolvimento, desde o design até a implantação, utilizando metodologias ágeis (Scrum)."
+      },
+      {
+        "company": "Startup Solutions Ltda.",
+        "role": "Desenvolvedor Java Júnior",
+        "duration_years": 1,
+        "description": "Suporte e desenvolvimento de novas funcionalidades em sistemas Java monolíticos. Atuação com Spring MVC, Hibernate e MySQL. Participação em refatoração de código e testes unitários."
+      }
+    ],
+    "skills": [
+      "Java 11/17",
+      "Spring Boot",
+      "Spring Data JPA",
+      "RESTful APIs",
+      "Microservices",
+      "AWS (EC2, S3, SQS, RDS)",
+      "Docker",
+      "PostgreSQL",
+      "Kafka",
+      "JUnit",
+      "Mockito",
+      "Git",
+      "Maven",
+      "Scrum"
+    ],
+    "projects": [
+      {
+        "name": "Plataforma de E-commerce Distribuída",
+        "description": "Desenvolvimento de um conjunto de microserviços para uma plataforma de e-commerce, incluindo serviços de catálogo, pedidos e pagamentos. Utilização de Spring Cloud para descoberta de serviços e Circuit Breaker.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "Spring Cloud",
+          "Kafka",
+          "PostgreSQL",
+          "Docker",
+          "AWS EKS"
+        ]
+      },
+      {
+        "name": "API de Gestão de Usuários",
+        "description": "Criação de uma API REST para gerenciamento de usuários e autenticação, com integração OAuth2 e JWT.",
+        "technologies": [
+          "Java",
+          "Spring Security",
+          "Spring Boot",
+          "JWT",
+          "PostgreSQL"
+        ]
+      }
+    ],
+    "certifications": [
+      "Oracle Certified Professional, Java SE 11 Developer",
+      "AWS Certified Developer - Associate"
+    ],
+    "languages": [
+      "Português (Nativo)",
+      "Inglês (Avançado)"
+    ]
+  },
+  {
+    "candidate_id": 2,
+    "name": "{{NOME}}",
+    "age": 30,
+    "education": {
+      "degree": "Engenharia de Software",
+      "institution": "Universidade de São Paulo (USP)",
+      "graduation_year": 2017
+    },
+    "experience": [
+      {
+        "company": "Global Solutions Inc.",
+        "role": "Desenvolvedor Backend Java Pleno",
+        "duration_years": 2,
+        "description": "Atuação no desenvolvimento de sistemas distribuídos e APIs de alta performance para o setor financeiro. Utilização de Java 8/11, Spring Boot, Spring Cloud e Kubernetes. Experiência com bancos de dados NoSQL (MongoDB, Cassandra) e mensageria (RabbitMQ). Implementação de testes automatizados e pipelines de CI/CD (Jenkins)."
+      },
+      {
+        "company": "Digital Hub Ltda.",
+        "role": "Desenvolvedor Java",
+        "duration_years": 2,
+        "description": "Manutenção e evolução de aplicações Java EE. Migração de módulos de sistemas legados para microserviços Spring Boot. Experiência com Oracle Database e WildFly."
+      }
+    ],
+    "skills": [
+      "Java 8/11",
+      "Spring Boot",
+      "Spring Cloud",
+      "Microservices",
+      "Kubernetes",
+      "Docker",
+      "MongoDB",
+      "Cassandra",
+      "RabbitMQ",
+      "RESTful APIs",
+      "CI/CD (Jenkins)",
+      "Git",
+      "Gradle",
+      "TDD",
+      "Kanban"
+    ],
+    "projects": [
+      {
+        "name": "Sistema de Pagamentos Online",
+        "description": "Desenvolvimento de serviços de pagamentos e antifraude, com foco em escalabilidade e resiliência. Integração com gateways de pagamento externos e processamento assíncrono de transações.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "Kubernetes",
+          "RabbitMQ",
+          "MongoDB"
+        ]
+      },
+      {
+        "name": "API de Gerenciamento de Estoque",
+        "description": "Criação de uma API para controle de estoque em tempo real, utilizando arquitetura de microsserviços e integração com sistemas de ERP.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "Eureka",
+          "PostgreSQL",
+          "Docker"
+        ]
+      }
+    ],
+    "certifications": [
+      "Professional Scrum Developer I",
+      "Google Cloud Associate Cloud Engineer"
+    ],
+    "languages": [
+      "Português (Nativo)",
+      "Inglês (Avançado)",
+      "Espanhol (Intermediário)"
+    ]
+  },
+  {
+    "candidate_id": 3,
+    "name": "{{NOME}}",
+    "age": 27,
+    "education": {
+      "degree": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+      "institution": "FIAP",
+      "graduation_year": 2019
+    },
+    "experience": [
+      {
+        "company": "Fintech Solutions Ltda.",
+        "role": "Desenvolvedor Backend Java Pleno",
+        "duration_years": 2,
+        "description": "Desenvolvimento de APIs REST e microserviços para aplicações financeiras de alta criticidade. Utilização de Java 11, Spring Boot, Spring WebFlux para reatividade e testes de performance. Experiência com Azure DevOps, AKS (Azure Kubernetes Service) e Azure Functions. Implementação de soluções de segurança com Spring Security e OAuth2."
+      },
+      {
+        "company": "Innovate IT Consultoria",
+        "role": "Desenvolvedor Java Júnior",
+        "duration_years": 1,
+        "description": "Atuação no desenvolvimento de módulos para sistemas corporativos. Experiência com Spring MVC, JSP e SQL Server. Colaboração em equipes ágeis (Scrum)."
+      }
+    ],
+    "skills": [
+      "Java 11",
+      "Spring Boot",
+      "Spring WebFlux",
+      "Microservices",
+      "Azure (AKS, Functions, Cosmos DB)",
+      "Docker",
+      "SQL Server",
+      "PostgreSQL",
+      "RESTful APIs",
+      "Spring Security",
+      "OAuth2",
+      "Azure DevOps",
+      "Git",
+      "Mockito",
+      "Scrum"
+    ],
+    "projects": [
+      {
+        "name": "Serviço de Análise de Crédito",
+        "description": "Construção de um microserviço reativo para análise de crédito em tempo real, utilizando Spring WebFlux e integração com serviços externos.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "Spring WebFlux",
+          "Azure Cosmos DB",
+          "Azure Functions"
+        ]
+      },
+      {
+        "name": "API de Notificações",
+        "description": "Criação de uma API para envio de notificações multi-canal (email, SMS, push), com arquitetura baseada em eventos.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "Kafka",
+          "PostgreSQL",
+          "Docker"
+        ]
+      }
+    ],
+    "certifications": [
+      "Microsoft Certified: Azure Developer Associate",
+      "Spring Certified Professional"
+    ],
+    "languages": [
+      "Português (Nativo)",
+      "Inglês (Avançado)"
+    ]
+  },
+  {
+    "candidate_id": 4,
+    "name": "{{NOME}}",
+    "age": 29,
+    "education": {
+      "degree": "Bacharelado em Sistemas de Informação",
+      "institution": "Universidade Federal do Rio de Janeiro (UFRJ)",
+      "graduation_year": 2017
+    },
+    "experience": [
+      {
+        "company": "E-commerce Solutions",
+        "role": "Desenvolvedor Backend Java Pleno",
+        "duration_years": 2,
+        "description": "Desenvolvimento e manutenção de APIs RESTful e serviços de backend para uma plataforma de e-commerce. Utilização de Java 8/11, Spring Boot, Spring Data JPA e Hibernate. Otimização de consultas SQL e melhoria de performance de endpoints. Experiência com PostgreSQL e Redis."
+      },
+      {
+        "company": "Tech Consultoria Ltda.",
+        "role": "Desenvolvedor Java Júnior",
+        "duration_years": 2,
+        "description": "Atuação no desenvolvimento de sistemas internos para clientes. Experiência com Java SE, JDBC e servidores de aplicação (Tomcat). Participação em projetos com metodologia Waterfall e transição para Agile."
+      }
+    ],
+    "skills": [
+      "Java 8/11",
+      "Spring Boot",
+      "Spring Data JPA",
+      "Hibernate",
+      "RESTful APIs",
+      "PostgreSQL",
+      "MySQL",
+      "Redis",
+      "Maven",
+      "Git",
+      "JUnit",
+      "Mockito",
+      "Scrum",
+      "Jira"
+    ],
+    "projects": [
+      {
+        "name": "Sistema de Gestão de Conteúdo",
+        "description": "Criação de um backend para um CMS, com funcionalidades de CRUD para artigos, categorias e usuários. Implementação de cache com Redis.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "Spring Data JPA",
+          "PostgreSQL",
+          "Redis"
+        ]
+      },
+      {
+        "name": "API de Busca de Produtos",
+        "description": "Desenvolvimento de uma API para busca de produtos em um e-commerce, com filtros e paginação otimizados.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "Elasticsearch",
+          "PostgreSQL"
+        ]
+      }
+    ],
+    "certifications": [
+      "Oracle Certified Associate, Java SE 8 Programmer"
+    ],
+    "languages": [
+      "Português (Nativo)",
+      "Inglês (Intermediário)"
+    ]
+  },
+  {
+    "candidate_id": 5,
+    "name": "{{NOME}}",
+    "age": 32,
+    "education": {
+      "degree": "Bacharelado em Ciência da Computação",
+      "institution": "Universidade Federal de Santa Catarina (UFSC)",
+      "graduation_year": 2016
+    },
+    "experience": [
+      {
+        "company": "Enterprise Software Corp.",
+        "role": "Desenvolvedor Backend Java Pleno",
+        "duration_years": 3,
+        "description": "Manutenção e evolução de sistemas corporativos em Java EE e transição para arquitetura de microserviços com Spring Boot. Otimização de processos batch e desenvolvimento de integrações SOAP/REST. Experiência com Oracle Database e JBoss EAP. Colaboração em equipes multidisciplinares."
+      },
+      {
+        "company": "Local Web Solutions",
+        "role": "Desenvolvedor Java",
+        "duration_years": 2,
+        "description": "Desenvolvimento de aplicações web utilizando Java, JSF e MySQL. Suporte e correção de bugs em sistemas existentes. Participação em levantamento de requisitos com usuários."
+      }
+    ],
+    "skills": [
+      "Java EE",
+      "Spring Boot",
+      "Spring MVC",
+      "JPA",
+      "Hibernate",
+      "SOAP",
+      "RESTful APIs",
+      "Oracle Database",
+      "MySQL",
+      "JBoss EAP",
+      "Tomcat",
+      "Git",
+      "Maven",
+      "JUnit",
+      "Scrum",
+      "Kanban"
+    ],
+    "projects": [
+      {
+        "name": "Migração de Módulo Financeiro",
+        "description": "Refatoração de um módulo financeiro monolítico para uma arquitetura de microserviços Spring Boot, melhorando a escalabilidade e manutenção.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "Spring Data JPA",
+          "Oracle Database",
+          "Docker"
+        ]
+      },
+      {
+        "name": "API de Integração de Dados",
+        "description": "Desenvolvimento de uma API para integrar dados entre sistemas internos e externos, utilizando SOAP e REST.",
+        "technologies": [
+          "Java EE",
+          "JAX-WS",
+          "Spring Boot",
+          "Oracle Database"
+        ]
+      }
+    ],
+    "certifications": [
+      "IBM Certified Application Developer - WebSphere Application Server"
+    ],
+    "languages": [
+      "Português (Nativo)",
+      "Inglês (Intermediário)"
+    ]
+  },
+  {
+    "candidate_id": 6,
+    "name": "{{NOME}}",
+    "age": 26,
+    "education": {
+      "degree": "Bacharelado em Engenharia de Computação",
+      "institution": "Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)",
+      "graduation_year": 2020
+    },
+    "experience": [
+      {
+        "company": "Digital Transformation Co.",
+        "role": "Desenvolvedor Backend Java",
+        "duration_years": 2,
+        "description": "Desenvolvimento de APIs RESTful e serviços de backend para aplicações web e mobile. Utilização de Java 11, Spring Boot, e bancos de dados relacionais (PostgreSQL). Implementação de testes unitários e de integração. Participação em code reviews e refatoração de código."
+      },
+      {
+        "company": "StartUp Digital",
+        "role": "Estagiário Desenvolvedor",
+        "duration_years": 1,
+        "description": "Suporte no desenvolvimento de funcionalidades em sistemas Java. Aprendizado de Spring Framework e melhores práticas de desenvolvimento. Criação de scripts para automação de tarefas."
+      }
+    ],
+    "skills": [
+      "Java 11",
+      "Spring Boot",
+      "RESTful APIs",
+      "PostgreSQL",
+      "MySQL",
+      "Git",
+      "Maven",
+      "JUnit",
+      "Mockito",
+      "Swagger",
+      "Scrum"
+    ],
+    "projects": [
+      {
+        "name": "API de Gerenciamento de Tarefas",
+        "description": "Desenvolvimento de uma API para um aplicativo de lista de tarefas, com funcionalidades de CRUD, autenticação JWT e filtros.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "Spring Security",
+          "PostgreSQL",
+          "JWT"
+        ]
+      },
+      {
+        "name": "Serviço de Geração de Relatórios",
+        "description": "Criação de um serviço backend para gerar relatórios personalizados em PDF a partir de dados armazenados em banco de dados.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "JasperReports",
+          "PostgreSQL"
+        ]
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      "Português (Nativo)",
+      "Inglês (Intermediário)"
+    ]
+  },
+  {
+    "candidate_id": 7,
+    "name": "{{NOME}}",
+    "age": 31,
+    "education": {
+      "degree": "Bacharelado em Ciência da Computação",
+      "institution": "Universidade Federal do Rio Grande do Sul (UFRGS)",
+      "graduation_year": 2015
+    },
+    "experience": [
+      {
+        "company": "Data Solutions Inc.",
+        "role": "Desenvolvedor Backend Java Pleno",
+        "duration_years": 3,
+        "description": "Foco em otimização de performance e escalabilidade de aplicações Java. Desenvolvimento de APIs REST e integração com sistemas legados. Experiência com Spring Boot, Spring Data JPA, e vasta experiência com otimização de consultas SQL em PostgreSQL e Oracle. Implementação de testes de carga e monitoramento."
+      },
+      {
+        "company": "Software House Brasil",
+        "role": "Desenvolvedor Java",
+        "duration_years": 2,
+        "description": "Desenvolvimento e manutenção de sistemas bancários em Java EE. Atuação com JSF, EJB e Oracle Database. Participação em projetos de longa duração com foco em estabilidade e segurança."
+      }
+    ],
+    "skills": [
+      "Java 8/11",
+      "Spring Boot",
+      "Spring Data JPA",
+      "Hibernate",
+      "RESTful APIs",
+      "PostgreSQL",
+      "Oracle Database",
+      "SQL Optimization",
+      "JMeter",
+      "Prometheus",
+      "Grafana",
+      "Git",
+      "Maven",
+      "JUnit"
+    ],
+    "projects": [
+      {
+        "name": "Otimização de Performance de APIs",
+        "description": "Identificação e resolução de gargalos de performance em APIs existentes, resultando em uma redução de 30% no tempo de resposta e aumento da capacidade de requisições por segundo.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "PostgreSQL",
+          "JMeter",
+          "VisualVM"
+        ]
+      },
+      {
+        "name": "Sistema de Logs Centralizado",
+        "description": "Desenvolvimento de um sistema para centralizar e analisar logs de diversas aplicações, utilizando ELK Stack (Elasticsearch, Logstash, Kibana) e Java para ingestão de dados.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "Logstash",
+          "Elasticsearch",
+          "Kibana"
+        ]
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      "Português (Nativo)",
+      "Inglês (Avançado)"
+    ]
+  },
+  {
+    "candidate_id": 8,
+    "name": "{{NOME}}",
+    "age": 25,
+    "education": {
+      "degree": "Bacharelado em Sistemas de Informação",
+      "institution": "Universidade Presbiteriana Mackenzie",
+      "graduation_year": 2021
+    },
+    "experience": [
+      {
+        "company": "Innovate Digital Ltda.",
+        "role": "Desenvolvedor Backend Java Júnior",
+        "duration_years": 2,
+        "description": "Desenvolvimento de funcionalidades em APIs RESTful com Java 8 e Spring Boot. Manutenção de sistemas legados e implementação de novas features. Experiência com MySQL e Git. Participação em reuniões de planejamento e estimativa de tarefas."
+      },
+      {
+        "company": "Tech Solutions",
+        "role": "Estagiário Desenvolvedor",
+        "duration_years": 0.5,
+        "description": "Suporte na correção de bugs e pequenas implementações em sistemas Java. Aprendizado de banco de dados e controle de versão. Criação de documentação técnica."
+      }
+    ],
+    "skills": [
+      "Java 8",
+      "Spring Boot",
+      "RESTful APIs",
+      "MySQL",
+      "Postman",
+      "Git",
+      "Maven",
+      "JUnit",
+      "Scrum"
+    ],
+    "projects": [
+      {
+        "name": "API de Biblioteca Digital",
+        "description": "Desenvolvimento de uma API para gerenciar livros, autores e usuários de uma biblioteca, com funcionalidades de CRUD e busca.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "MySQL"
+        ]
+      },
+      {
+        "name": "Sistema de Gestão de Eventos",
+        "description": "Colaboração no desenvolvimento de um sistema backend para gerenciamento de eventos, incluindo registro de participantes e criação de agendas.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "MySQL"
+        ]
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      "Português (Nativo)",
+      "Inglês (Básico)"
+    ]
+  },
+  {
+    "candidate_id": 9,
+    "name": "{{NOME}}",
+    "age": 24,
+    "education": {
+      "degree": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+      "institution": "SENAC",
+      "graduation_year": 2022
+    },
+    "experience": [
+      {
+        "company": "Digital Growth Agency",
+        "role": "Desenvolvedor Backend Júnior",
+        "duration_years": 1.5,
+        "description": "Desenvolvimento de APIs RESTful para websites e aplicações internas utilizando Java 8 e Spring Boot. Colaboração com equipes de frontend. Resolução de bugs e implementação de pequenas melhorias. Experiência com H2 Database para desenvolvimento e PostgreSQL em produção."
+      },
+      {
+        "company": "Freelancer",
+        "role": "Desenvolvedor Web",
+        "duration_years": 1,
+        "description": "Desenvolvimento de pequenos websites e sistemas utilizando PHP e MySQL. Alguma experiência com Java para scripts de automação."
+      }
+    ],
+    "skills": [
+      "Java 8",
+      "Spring Boot",
+      "RESTful APIs",
+      "PostgreSQL",
+      "H2 Database",
+      "Git",
+      "Maven",
+      "JUnit",
+      "Agile"
+    ],
+    "projects": [
+      {
+        "name": "API de Blog Pessoal",
+        "description": "Criação de uma API para um blog pessoal, permitindo gerenciamento de posts, comentários e categorias. Autenticação básica.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "name": "Sistema de Encurtamento de URLs",
+        "description": "Desenvolvimento de um serviço backend para encurtar URLs, com redirecionamento e contagem de acessos.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "H2 Database"
+        ]
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      "Português (Nativo)"
+    ]
+  },
+  {
+    "candidate_id": 10,
+    "name": "{{NOME}}",
+    "age": 23,
+    "education": {
+      "degree": "Bacharelado em Engenharia de Software",
+      "institution": "Universidade Federal de Pernambuco (UFPE)",
+      "graduation_year": 2023
+    },
+    "experience": [
+      {
+        "company": "Inovação Tech",
+        "role": "Estagiário Desenvolvedor Backend",
+        "duration_years": 1,
+        "description": "Participação no desenvolvimento de microserviços em Java 17 e Spring Boot. Colaboração na criação de APIs REST e testes unitários. Suporte na integração com bancos de dados (PostgreSQL) e sistemas de mensageria (Kafka). Monitoramento de performance e correção de bugs."
+      }
+    ],
+    "skills": [
+      "Java 17",
+      "Spring Boot",
+      "RESTful APIs",
+      "PostgreSQL",
+      "Kafka (Básico)",
+      "Git",
+      "Maven",
+      "JUnit",
+      "Docker (Básico)",
+      "Scrum"
+    ],
+    "projects": [
+      {
+        "name": "Sistema de Reservas Acadêmicas",
+        "description": "Projeto universitário para gerenciamento de salas e equipamentos em uma universidade. Backend desenvolvido com Spring Boot.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "name": "API de Cotações de Moedas",
+        "description": "Desenvolvimento de uma API para consultar cotações de moedas em tempo real, integrando com serviços externos.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "H2 Database",
+          "RestTemplate"
+        ]
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      "Português (Nativo)",
+      "Inglês (Intermediário)"
+    ]
+  }
+]
