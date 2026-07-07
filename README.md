@@ -9,6 +9,7 @@ O rito inicial pra começar a mexer no projeto é: </br>
 2 ) Executar os seguintes comandos:
 ```bash
 python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
 Apenas uma vez em cada uma das pastas (cada uma tem um venv diferente); </br></br>
