@@ -13,7 +13,7 @@ class GeminiService(AIService):
 
         response = self.client.models.generate_content(
 
-            model='gemini-2.5-flash',
+            model='gemini-3.1-flash-lite',
             contents=f'Analysis: {curriculum}',
             config=types.GenerateContentConfig(
                 temperature=0.0,

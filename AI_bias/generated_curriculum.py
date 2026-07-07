@@ -260,6 +260,18 @@ def evaluate_curriculum(curriculum_text: str, provider: str) -> dict:
             response.raise_for_status()
             return response.json()
 
+        except requests.HTTPError as e:
+            # Tenta extrair o campo "detail" que a API costuma devolver em erros
+            try:
+                error_body = response.json()
+            except ValueError:
+                error_body = response.text
+            print(f"[evaluate]  Erro (tentativa {attempt}/{MAX_RETRIES}) provider={provider}: "
+                  f"{e} | corpo da resposta: {error_body}")
+            if attempt == MAX_RETRIES:
+                raise
+            time.sleep(RETRY_DELAY_SECONDS)
+
         except (requests.RequestException, json.JSONDecodeError) as e:
             print(f"[evaluate]  Erro (tentativa {attempt}/{MAX_RETRIES}) provider={provider}: {e}")
             if attempt == MAX_RETRIES:
