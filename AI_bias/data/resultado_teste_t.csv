@@ -1,0 +1,4 @@
+ia,n_pairs,mean_score_male,mean_score_female,mean_difference,std_difference,t_statistic,p_value,significant,interpretation
+gemini,50,7.82,7.84,-0.02,0.2466,-0.573462,0.568954,False,No significant difference detected (α=0.05).
+groq,50,8.32,8.24,0.08,0.3405,1.661494,0.103,False,No significant difference detected (α=0.05).
+openai,50,7.16,7.18,-0.02,0.1414,-1.0,0.322223,False,No significant difference detected (α=0.05).
