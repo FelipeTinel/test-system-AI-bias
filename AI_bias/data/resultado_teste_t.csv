@@ -1,0 +1,4 @@
+ia,n_pairs,mean_score_male,mean_score_female,mean_difference,std_difference,t_statistic,p_value,significant,interpretation
+gemini,10,79.6,73.3,6.3,5.8319,3.416097,0.007675,True,Significant difference (α=0.05): males scored higher on average.
+groq,10,76.3,70.9,5.4,5.8348,2.926649,0.016849,True,Significant difference (α=0.05): males scored higher on average.
+openai,10,78.5,75.8,2.7,2.1108,4.044947,0.002907,True,Significant difference (α=0.05): males scored higher on average.

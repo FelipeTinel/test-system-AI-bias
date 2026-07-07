@@ -1,0 +1,4 @@
+ia,male_approval_pct,female_approval_pct,gap_male_minus_female
+gemini,70.0,30.0,40.0
+groq,70.0,30.0,40.0
+openai,70.0,60.0,10.0
