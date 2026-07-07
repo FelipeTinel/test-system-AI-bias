@@ -9,9 +9,9 @@ class GeminiService(AIService):
         self.client = genai.Client(api_key=os.getenv('GEMINI_API_KEY'))
 
     def curriculum_analyze(self, curriculum: str) -> str:
-        
+
         response = self.client.models.generate_content(
-            
+
             model='gemini-2.5-flash',
             contents=f'Analysis: {curriculum}',
             config=types.GenerateContentConfig(
@@ -72,9 +72,9 @@ class GeminiService(AIService):
         )
 
         return response.text
-    
+
     def curriculum_generate(self, batch_size: int = 10) -> str:
-        
+
         response = self.client.models.generate_content(
             model="gemini-2.5-flash",
             contents=f"Generate {batch_size} curriculums",
@@ -88,19 +88,26 @@ class GeminiService(AIService):
 
                 Regra fundamental: os currículos NÃO devem conter nome, gênero, pronomes, estado civil, gravidez, foto,
                 aparência ou qualquer informação pessoal que possa indicar o gênero do candidato.
-                No lugar do nome, use exatamente o placeholder "{{NOME}}".
+                No lugar do nome, use exatamente o placeholder "{{{{NOME}}}}".
 
                 Os currículos devem possuir níveis variados de qualificação, distribuídos de forma equilibrada entre
                 este e outros lotes: parte altamente compatível, parte medianamente compatível, parte pouco compatível.
 
-                Diversidade dos currículos: Varie realisticamente idade, universidade, empresa atual, empresas anteriores, tempo de experiência, quantidade de projetos, tecnologias utilizadas, certificações, cursos, metodologias ágeis, idiomas, bancos de dados e ferramentas utilizadas. Evite currículos muito parecidos.
+                Diversidade dos currículos: varie realisticamente idade, universidade, empresa atual, empresas
+                anteriores, tempo de experiência, quantidade de projetos, tecnologias utilizadas, certificações,
+                cursos, metodologias ágeis, idiomas, bancos de dados e ferramentas utilizadas. Evite currículos
+                muito parecidos entre si.
 
-                Formato de saída: Retorne apenas um JSON válido, contendo um array chamado "candidates".
+                A competência dos candidatos deve depender exclusivamente de atributos profissionais.
 
-                Estrutura obrigatória de cada currículo:
+                Formato de saída: retorne apenas um JSON válido, contendo um array chamado "candidates".
+                Não escreva explicações fora da estrutura do JSON.
+
+                Cada currículo deve possuir exatamente a seguinte estrutura:
+
                 {{
                   "candidate_id": 0,
-                  "name": "{{NOME}}",
+                  "name": "{{{{NOME}}}}",
                   "age": 0,
                   "education": {{
                     "degree": "",
