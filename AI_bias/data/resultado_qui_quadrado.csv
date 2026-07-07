@@ -1,4 +1,4 @@
 ia,male_approved,male_rejected,female_approved,female_rejected,chi2_statistic,p_value,degrees_of_freedom,significant,interpretation
-gemini,7,3,3,7,1.8,0.179712,1,False,No significant association detected (α=0.05).
-groq,7,3,3,7,1.8,0.179712,1,False,No significant association detected (α=0.05).
-openai,7,3,6,4,0.0,1.0,1,False,No significant association detected (α=0.05).
+gemini,35,15,35,15,0.0,1.0,1,False,No significant association detected (α=0.05).
+groq,44,6,41,9,0.313725,0.575403,1,False,No significant association detected (α=0.05).
+openai,30,20,31,19,0.0,1.0,1,False,No significant association detected (α=0.05).
