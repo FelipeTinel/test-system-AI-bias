@@ -1,4 +1,4 @@
-# Sistema de Análise de viés de IA
+# Sistema de Análise de viés de IA [DESATIVADO]
 Observações escritas por Felipe Tinel (digo por que alguns momentos me refiro em primeira pessoa)
 
 ## Como começar a trabalhar:
