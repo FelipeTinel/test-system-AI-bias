@@ -27,12 +27,6 @@ deactivate
 Atualmente existem duas pastas, api e AI bias. A pasta api, como o nome diz, tem a api usada para o projeto.
 Tudo presente nela envolve criar requisições para a openai, google e groq de maneira automatizada. </br>
 
-A URL para usa-la é essa aqui:
-
-</br>
-
-#### https://u1t86mt1g3.execute-api.us-east-1.amazonaws.com/Prod/analysis/
-
 </br>
 
 </br>
