@@ -34,14 +34,7 @@ Tudo presente nela envolve criar requisições para a openai, google e groq de m
 A rota "analysis/" vai retornar um JSON com uma mensagem dizendo "Is working". Caso não retorne, alguma coisa deu errado. </br>
 Pode tentar resolver ou me informar. </br> </br>
 
-A rota que retorna uma análise feita por uma IA é "analysis/evaluate", ou simplesmente:
-
-</br>
-
-#### https://u1t86mt1g3.execute-api.us-east-1.amazonaws.com/Prod/analysis/evaluate
-
-</br>
-
+A rota que retorna uma análise feita por uma IA é "analysis/evaluate".
 Você manda um JSON assim:
 
 ```bash
